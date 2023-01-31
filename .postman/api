@@ -11,9 +11,7 @@ files[] = {"id":"466628-36a2dbab-0800-443a-80ba-02ee8c0cdd51","path":"heelo.json
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
-files[] = {"path":"Awesome.json","metaData":{}}
 files[] = {"path":"index.yaml","metaData":{}}
-files[] = {"path":"New.yaml","metaData":{}}
 
 [relations.apiDefinition.metaData]
 type = openapi:3
