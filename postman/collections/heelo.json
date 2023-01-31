@@ -6,42 +6,7 @@
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_uid": "466628-36a2dbab-0800-443a-80ba-02ee8c0cdd51"
 	},
-	"item": [
-		{
-			"name": "New Folder",
-			"item": [
-				{
-					"name": "Hello",
-					"id": "2505f945-b7cf-4159-bd0c-5554f1cd1b93",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"spacecrafts",
-								":spacecraftId"
-							],
-							"variable": [
-								{
-									"key": "spacecraftId",
-									"value": null
-								}
-							]
-						}
-					},
-					"response": []
-				}
-			],
-			"id": "6211b155-aba1-410e-8a80-0672158cbd15"
-		}
-	],
+	"item": [],
 	"auth": {
 		"type": "apikey",
 		"apikey": [
