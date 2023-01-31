@@ -1,9 +1,17 @@
 {
 	"info": {
-		"_postman_id": "8489cbe2-0f6d-4e64-a4bf-e9abe251de99",
+		"_postman_id": "a316c5ae-881c-485e-9f08-cd7a5a8f66fa",
 		"name": "New Collection Develop",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "3423-8489cbe2-0f6d-4e64-a4bf-e9abe251de99"
+		"_uid": "466628-a316c5ae-881c-485e-9f08-cd7a5a8f66fa"
 	},
-	"item": []
+	"item": [],
+	"variable": [
+		{
+			"id": "5eab3942-dcdb-4513-8d23-9d7d096e0128",
+			"key": "baseUrl",
+			"value": "/",
+			"type": "string"
+		}
+	]
 }
