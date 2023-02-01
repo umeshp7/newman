@@ -6,7 +6,61 @@
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_uid": "466628-36a2dbab-0800-443a-80ba-02ee8c0cdd51"
 	},
-	"item": [],
+	"item": [
+		{
+			"name": "Hello world updated requestfefe",
+			"id": "ccf7fe57-370f-44e3-a252-a622b52c2369",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?members&reference&Type&_postman_listIndexKey=key&_postman_listAllowsMultipleValues",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"spacecrafts",
+						":spacecraftId"
+					],
+					"query": [
+						{
+							"key": "members",
+							"value": []
+						},
+						{
+							"key": "reference",
+							"value": {}
+						},
+						{
+							"key": "Type",
+							"value": {
+								"_postman_propertyName": "QueryParam",
+								"_postman_propertyIndexKey": "key",
+								"_postman_propertyAllowsMultipleValues": true
+							}
+						},
+						{
+							"key": "_postman_listIndexKey",
+							"value": "key"
+						},
+						{
+							"key": "_postman_listAllowsMultipleValues",
+							"value": true
+						}
+					],
+					"variable": [
+						{
+							"key": "spacecraftId"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
 	"auth": {
 		"type": "apikey",
 		"apikey": [
