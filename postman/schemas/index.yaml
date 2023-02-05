@@ -2,7 +2,7 @@ openapi: '3.0.0'
 info:
   version: '1.0.0'
   title: 'Sample API'
-  description: Buy or rent spacecraft
+  description: Buy or rent spacecrafts
 
 paths:
   /spacecrafts/{spacecraftId}:
@@ -14,7 +14,7 @@ paths:
         schema:
           $ref: '#/components/schemas/SpacecraftId'
     get:
-      summary: Hello world updated requestfefe
+      summary: Read a spacecraf
       responses:
         '200':
           description: The spacecraft corresponding to the provided `spacecraftId`

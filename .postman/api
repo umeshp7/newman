@@ -5,7 +5,7 @@ id = eafaa6a2-29cd-46c4-b734-9095df17f686
 
 [relations.collections]
 rootDirectory = postman/collections
-files[] = {"id":"466628-36a2dbab-0800-443a-80ba-02ee8c0cdd51","path":"heelo.json","metaData":{}}
+files[] = {"id":"466628-3bef8171-cbfd-4d33-b9a0-fe496773244f","path":"New collleciton.json","metaData":{}}
 
 [relations.collections.metaData]
 
