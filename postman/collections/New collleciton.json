@@ -8,7 +8,7 @@
 	},
 	"item": [
 		{
-			"name": "Read a spacecraft update",
+			"name": "Read a spacecraft update checking this",
 			"id": "42b51f9c-dcbe-49bd-9a71-3a5777504a81",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -22,13 +22,25 @@
 					}
 				],
 				"url": {
-					"raw": "{{baseUrl}}/spacecrafts/:spacecraftId",
+					"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?key1=key2&key4=key34",
 					"host": [
 						"{{baseUrl}}"
 					],
 					"path": [
 						"spacecrafts",
 						":spacecraftId"
+					],
+					"query": [
+						{
+							"key": "key1",
+							"value": "key2",
+							"type": "text"
+						},
+						{
+							"key": "key4",
+							"value": "key34",
+							"type": "text"
+						}
 					],
 					"variable": [
 						{
@@ -167,6 +179,21 @@
 					"body": "{\n  \"message\": \"nostrud eu ut consequat\"\n}"
 				}
 			]
+		},
+		{
+			"name": "New Request",
+			"id": "9e5e6fca-4f53-4595-b22b-1af9db441c7d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
 		}
 	],
 	"auth": {
