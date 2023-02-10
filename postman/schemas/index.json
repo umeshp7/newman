@@ -2,7 +2,7 @@
 	"openapi": "3.0.0",
 	"info": {
 		"version": "1.0.0",
-		"title": "Swagger petstore",
+		"title": "Swagger Petstore ",
 		"license": {
 			"name": "MIT"
 		}
@@ -15,7 +15,7 @@
 	"paths": {
 		"/pets": {
 			"get": {
-				"summary": "List all pets",
+				"summary": "sdgwrgre",
 				"operationId": "listPets",
 				"tags": [
 					"pets"
@@ -25,14 +25,14 @@
 						"name": "limit",
 						"in": "header",
 						"description": "How many items to return at one time (max 100)",
-						"required": false,
+						"required": true,
 						"schema": {
 							"type": "integer",
 							"format": "int32"
 						}
 					},
 					{
-						"name": "check",
+						"name": "New name",
 						"in": "query",
 						"description": "variable",
 						"style": "form",
@@ -91,7 +91,7 @@
 				}
 			},
 			"post": {
-				"summary": "Createet",
+				"summary": "Create a pet",
 				"operationId": "createPets",
 				"tags": [
 					"pets"
