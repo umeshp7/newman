@@ -33,4 +33,4 @@ files[] = {"path":"New.json","metaData":{}}
 
 [relations.apiDefinition.metaData]
 type = openapi:3
-rootFiles[] = New.json
+rootFiles[] = index.json
