@@ -5,17 +5,32 @@ id = eafaa6a2-29cd-46c4-b734-9095df17f686
 
 [relations.collections]
 rootDirectory = postman/collections
-files[] = {"id":"466628-bc1d3ed3-ca48-45b4-a1a5-f5fa50fb6eaf","path":"Generated from def.json","metaData":{}}
+files[] = {"id":"466628-3e2f8e47-3e7b-431f-b18f-8a2bacd99818","path":"Generated from def.json","metaData":{}}
 files[] = {"id":"466628-649490da-2fee-47dc-adc5-671db8208596","path":"Generated from definition.json","metaData":{}}
-files[] = {"id":"466628-b4ac40c2-b56c-46a3-9c8d-fd55a048021b","path":"Missing requests.json","metaData":{}}
-files[] = {"id":"466628-67cdc085-8620-4e7e-b888-0cb49641ddb5","path":"new check.json","metaData":{}}
+files[] = {"id":"466628-9a7fca7d-b8d0-4e9e-85cb-d8a542a14522","path":"Missing requests.json","metaData":{}}
+files[] = {"id":"466628-391c0b53-a200-4754-8d32-ba36c844a02a","path":"new check.json","metaData":{}}
+files[] = {"id":"466628-60f6eb34-cbbf-419b-8723-d5b2609a52ae","path":"New gennnn.json","metaData":{}}
 
 [relations.collections.metaData]
+
+[relations.collections.metaData.config]
+requestNameSource = Fallback
+indentCharacter = Space
+collapseFolders = true
+optimizeConversion = true
+requestParametersResolution = Example
+exampleParametersResolution = Example
+folderStrategy = Paths
+includeAuthInfoInExample = true
+enableOptionalParameters = true
+keepImplicitHeaders = false
+includeDeprecated = true
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
 files[] = {"path":"index.json","metaData":{}}
+files[] = {"path":"New.json","metaData":{}}
 
 [relations.apiDefinition.metaData]
 type = openapi:3
-rootFiles[] = index.json
+rootFiles[] = New.json
