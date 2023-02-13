@@ -5,10 +5,15 @@ id = eafaa6a2-29cd-46c4-b734-9095df17f686
 
 [relations.collections]
 rootDirectory = postman/collections
+files[] = {"id":"466628-a8be3565-63dd-4c8e-810f-193798cb5378","path":"configdata.json","metaData":{}}
+files[] = {"id":"466628-f40a3626-a7a0-476b-8cf7-b3731a57b3fb","path":"efwrgrw.json","metaData":{}}
 files[] = {"id":"466628-a316c5ae-881c-485e-9f08-cd7a5a8f66fa","path":"New Collection Develop.json","metaData":{}}
 files[] = {"id":"466628-e0379035-9b6f-4365-a3a9-dd2d84611f26","path":"New Collection(1).json","metaData":{}}
+files[] = {"id":"466628-2599f27f-ad34-4a50-a768-66060cc4bc8f","path":"store config.json","metaData":{}}
 
 [relations.collections.metaData]
+466628-2599f27f-ad34-4a50-a768-66060cc4bc8f = {"requestNameSource":"Fallback","indentCharacter":"Tab","collapseFolders":true,"optimizeConversion":true,"requestParametersResolution":"Example","exampleParametersResolution":"Schema","folderStrategy":"Paths","includeAuthInfoInExample":true,"enableOptionalParameters":true,"keepImplicitHeaders":false,"includeDeprecated":true}
+466628-a8be3565-63dd-4c8e-810f-193798cb5378 = {"requestNameSource":"Fallback","indentCharacter":"Space","collapseFolders":true,"optimizeConversion":true,"requestParametersResolution":"Example","exampleParametersResolution":"Schema","folderStrategy":"Paths","includeAuthInfoInExample":true,"enableOptionalParameters":true,"keepImplicitHeaders":false,"includeDeprecated":true}
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
