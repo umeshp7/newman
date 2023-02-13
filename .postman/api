@@ -17,6 +17,10 @@ files[] = {"id":"466628-a31d20e5-c23c-48c5-9c5d-8cf6bb9dbd81","path":"wrofijwrgo
 
 [relations.collections.metaData]
 466628-2333b668-05ad-47ff-a9f9-17c0b2047c27 = {"requestNameSource":"Fallback","indentCharacter":"Tab","collapseFolders":true,"optimizeConversion":true,"requestParametersResolution":"Example","exampleParametersResolution":"Example","folderStrategy":"Paths","includeAuthInfoInExample":true,"enableOptionalParameters":true,"keepImplicitHeaders":false,"includeDeprecated":true}
+466628-bae602dd-5971-4fa8-b3ed-5ac04ace9e56 = {"requestNameSource":"URL","indentCharacter":"Space","collapseFolders":true,"optimizeConversion":true,"requestParametersResolution":"Schema","exampleParametersResolution":"Example","folderStrategy":"Paths","includeAuthInfoInExample":true,"enableOptionalParameters":true,"keepImplicitHeaders":false,"includeDeprecated":true}
+466628-9d07823f-f6ca-4294-b2d7-1b7e1b8e3e75 = {"requestNameSource":"URL","indentCharacter":"Space","collapseFolders":true,"optimizeConversion":true,"requestParametersResolution":"Example","exampleParametersResolution":"Example","folderStrategy":"Paths","includeAuthInfoInExample":true,"enableOptionalParameters":true,"keepImplicitHeaders":false,"includeDeprecated":true}
+466628-5ce05c7f-7b50-48e4-b8a5-e0c80664f117 = {"requestNameSource":"URL","indentCharacter":"Space","collapseFolders":true,"optimizeConversion":true,"requestParametersResolution":"Example","exampleParametersResolution":"Example","folderStrategy":"Paths","includeAuthInfoInExample":true,"enableOptionalParameters":true,"keepImplicitHeaders":false,"includeDeprecated":true}
+466628-5edf6b67-1ff0-4e9f-8b64-7fc7b8569a83 = {"requestNameSource":"URL","indentCharacter":"Space","collapseFolders":true,"optimizeConversion":true,"requestParametersResolution":"Example","exampleParametersResolution":"Example","folderStrategy":"Paths","includeAuthInfoInExample":true,"enableOptionalParameters":true,"keepImplicitHeaders":false,"includeDeprecated":true}
 
 [relations.collections.metaData.466628-234effc5-1dcf-4f52-96b6-8e8459aa8747]
 requestNameSource = Fallback
