@@ -1,23 +1,43 @@
 openapi: '3.0.0'
 info:
   version: '1.0.0'
-  title: 'Sample API'
-  description: Buy or rent spacecrafts
-
+  title: 'Sample API here'
+  description: Buy or rent spacecrafts her wdd updated
 paths:
-  /spacecrafts/{spacecraftId}:
-    parameters:
-      - name: spacecraftId
-        description: The unique identifier of the spacecraft
-        in: path
-        required: true
-        schema:
-          $ref: '#/components/schemas/SpacecraftId'
+  /space/:
     get:
-      summary: Read a spacecraft
+      parameters:
+      - name: qefwrf
+        in: header
+        description: your API key
+        required: true
+        explode: false
+        schema:
+          type: string
+      - name: abcheaderchanged
+        in: header
+        description: your API key
+        required: true
+        explode: false
+        schema:
+          type: string
+      - name: cdf
+        in: query
+        description: your API key
+        required: true
+        explode: false
+        schema:
+          type: string
+      summary: Changing now now realtim
       responses:
-        '200':
-          description: The spacecraft corresponding to the provided `spacecraftId`
+        '200': 
+          description: These spacecraft corresponding to the provided `spacecraftId`
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Spacecraft'
+        '201':
+          description: These spacecraft corresponding to the ssss provided `spacecraftId`
           content:
             application/json:
               schema:
@@ -34,6 +54,36 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/Error'
+    post:
+      summary: POSTdfdf aaaa spacecraft hsssere again now now
+      responses:
+        '200': 
+          description: These spacecraft corresponding to the provided `spacecraftId`
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Spacecraft'
+        '201':
+          description: These spacecraft corresponding to the ssss provided `spacecraftId`
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Spacecraft'
+    put:
+      summary: POST aaaa spacecraft hsssere again now now
+      responses:
+        '200': 
+          description: These spacecraft corresponding to the provided `spacecraftId`
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Spacecraft'
+        '201':
+          description: These spacecraft corresponding to the ssss provided `spacecraftId`
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Spacecraft'
 components:
   schemas:
     SpacecraftId:
@@ -49,7 +99,7 @@ components:
         id:
           $ref: '#/components/schemas/SpacecraftId'
         name:
-          type: string
+          type: number
         type:
           type: string
           enum:
@@ -59,7 +109,7 @@ components:
             - spaceplane
             - station
         description:
-          type: string
+          type: number
     Error:
       type: object
       required:
@@ -75,3 +125,4 @@ components:
       name: X-Api-Key
 security:
   - ApiKey: []
+  
