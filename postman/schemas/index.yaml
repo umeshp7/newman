@@ -2,12 +2,12 @@ openapi: '3.0.0'
 info:
   version: '1.0.0'
   title: 'Sample API'
-  description: Buy or rent hello wrfrw
+  description: Buy or rent
 paths:
   /space/:
     get:
       parameters:
-      - name: Update fee
+      - name: Update
         in: header
         description: your API key
         required: true
@@ -28,7 +28,7 @@ paths:
         explode: false
         schema:
           type: string
-      summary: UPDATE  fwfrw fdfs
+      summary: Update request check
       responses:
         '200': 
           description: These spacecraft corresponding to the provided `spacecraftId`

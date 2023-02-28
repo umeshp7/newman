@@ -11,7 +11,7 @@
 			"name": "space",
 			"item": [
 				{
-					"name": "UPDATE",
+					"name": "Update request check",
 					"id": "57553de2-6cdd-45e8-99d2-ea2d1fc19ab4",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -21,25 +21,13 @@
 						"header": [
 							{
 								"description": "(Required) your API key",
+								"key": "Update",
+								"value": "in anim"
+							},
+							{
+								"description": "(Required) your API key",
 								"key": "abcheader",
 								"value": "do veniam elit id"
-							},
-							{
-								"description": "(Required) your API key",
-								"key": "Update",
-								"value": "velit enim consequat esse",
-								"disabled": true
-							},
-							{
-								"description": "(Required) your API key",
-								"key": "abcheaderchanged",
-								"value": "velit enim consequat esse",
-								"disabled": true
-							},
-							{
-								"description": "(Required) your API key",
-								"key": "Update fee",
-								"value": "proident dolor"
 							},
 							{
 								"key": "Accept",
