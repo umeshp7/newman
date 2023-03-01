@@ -1,15 +1,15 @@
 {
 	"info": {
-		"_postman_id": "cc1d2dec-1b0c-4b49-b6b5-c3a1e7d3b5be",
-		"name": "efwr",
+		"_postman_id": "23aea034-bc64-4323-8d88-97bd5d4f76e0",
+		"name": "check",
 		"description": "Buy or rents",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "466628-cc1d2dec-1b0c-4b49-b6b5-c3a1e7d3b5be"
+		"_uid": "466628-23aea034-bc64-4323-8d88-97bd5d4f76e0"
 	},
 	"item": [
 		{
 			"name": "Update okay",
-			"id": "0ae77b7a-62b1-403f-a395-497e48c570c0",
+			"id": "e9da2d81-deed-40cd-8894-ae1001a06d9c",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -19,21 +19,21 @@
 					{
 						"description": "(Required) your API key",
 						"key": "fwrzofiroi",
-						"value": "ex nostrud in in"
+						"value": "velit ut"
 					},
 					{
 						"description": "(Required) your API key",
 						"key": "Update",
-						"value": "consectetur tempor pariatur aliqua"
+						"value": "nisi dolor"
 					},
 					{
 						"description": "(Required) your API key",
 						"key": "abcheader",
-						"value": "consectetur tempor pariatur aliqua"
+						"value": "nisi dolor"
 					}
 				],
 				"url": {
-					"raw": "{{baseUrl}}/space/?cdf=consectetur tempor pariatur aliqua",
+					"raw": "{{baseUrl}}/space/?cdf=nisi dolor",
 					"host": [
 						"{{baseUrl}}"
 					],
@@ -45,14 +45,14 @@
 						{
 							"description": "(Required) your API key",
 							"key": "cdf",
-							"value": "consectetur tempor pariatur aliqua"
+							"value": "nisi dolor"
 						}
 					]
 				}
 			},
 			"response": [
 				{
-					"id": "f9c68129-931f-4930-864e-3b533a965f29",
+					"id": "7049e2f9-48b6-43d3-8426-d04deef49ba3",
 					"name": "These spacecraft corresponding to the provided `spacecraftId`",
 					"originalRequest": {
 						"method": "GET",
@@ -60,16 +60,16 @@
 							{
 								"description": "(Required) your API key",
 								"key": "Update",
-								"value": "consectetur tempor pariatur aliqua"
+								"value": "nisi dolor"
 							},
 							{
 								"description": "(Required) your API key",
 								"key": "abcheader",
-								"value": "consectetur tempor pariatur aliqua"
+								"value": "nisi dolor"
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/space/?cdf=consectetur tempor pariatur aliqua",
+							"raw": "{{baseUrl}}/space/?cdf=nisi dolor",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -80,7 +80,7 @@
 							"query": [
 								{
 									"key": "cdf",
-									"value": "consectetur tempor pariatur aliqua"
+									"value": "nisi dolor"
 								}
 							]
 						}
@@ -95,10 +95,10 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n  \"id\": \"reprehend\",\n  \"name\": 92163656.36214903,\n  \"type\": \"spaceplane\",\n  \"description\": -73241507.08761153\n}"
+					"body": "{\n  \"id\": \"proident nisi laboris nostrud do\",\n  \"name\": 89967755.21645483,\n  \"type\": \"station\",\n  \"description\": -41746622.06844064\n}"
 				},
 				{
-					"id": "ab00a392-ff41-4c3b-a779-8bd94711f0e2",
+					"id": "1f08f9bf-39d2-4ca6-b009-653f50fb655a",
 					"name": "These spacecraft corresponding to the ssss provided `spacecraftId`",
 					"originalRequest": {
 						"method": "GET",
@@ -106,16 +106,16 @@
 							{
 								"description": "(Required) your API key",
 								"key": "Update",
-								"value": "consectetur tempor pariatur aliqua"
+								"value": "nisi dolor"
 							},
 							{
 								"description": "(Required) your API key",
 								"key": "abcheader",
-								"value": "consectetur tempor pariatur aliqua"
+								"value": "nisi dolor"
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/space/?cdf=consectetur tempor pariatur aliqua",
+							"raw": "{{baseUrl}}/space/?cdf=nisi dolor",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -126,7 +126,7 @@
 							"query": [
 								{
 									"key": "cdf",
-									"value": "consectetur tempor pariatur aliqua"
+									"value": "nisi dolor"
 								}
 							]
 						}
@@ -141,10 +141,10 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n  \"id\": \"reprehend\",\n  \"name\": 92163656.36214903,\n  \"type\": \"spaceplane\",\n  \"description\": -73241507.08761153\n}"
+					"body": "{\n  \"id\": \"proident nisi laboris nostrud do\",\n  \"name\": 89967755.21645483,\n  \"type\": \"station\",\n  \"description\": -41746622.06844064\n}"
 				},
 				{
-					"id": "9bb344f9-3ae8-49fc-ade0-3d7223f51d09",
+					"id": "ae0afcbc-690a-4137-9c93-26b92564de8a",
 					"name": "No spacecraft found for the provided `spacecraftId`",
 					"originalRequest": {
 						"method": "GET",
@@ -152,16 +152,16 @@
 							{
 								"description": "(Required) your API key",
 								"key": "Update",
-								"value": "consectetur tempor pariatur aliqua"
+								"value": "nisi dolor"
 							},
 							{
 								"description": "(Required) your API key",
 								"key": "abcheader",
-								"value": "consectetur tempor pariatur aliqua"
+								"value": "nisi dolor"
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/space/?cdf=consectetur tempor pariatur aliqua",
+							"raw": "{{baseUrl}}/space/?cdf=nisi dolor",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -172,7 +172,7 @@
 							"query": [
 								{
 									"key": "cdf",
-									"value": "consectetur tempor pariatur aliqua"
+									"value": "nisi dolor"
 								}
 							]
 						}
@@ -187,10 +187,10 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n  \"message\": \"irure ut\"\n}"
+					"body": "{\n  \"message\": \"aute et\"\n}"
 				},
 				{
-					"id": "98699775-af51-4fe3-b577-8ded0c5ca519",
+					"id": "0437fa14-5d03-402f-83cc-5441dfd941bd",
 					"name": "Unexpected error",
 					"originalRequest": {
 						"method": "GET",
@@ -198,16 +198,16 @@
 							{
 								"description": "(Required) your API key",
 								"key": "Update",
-								"value": "consectetur tempor pariatur aliqua"
+								"value": "nisi dolor"
 							},
 							{
 								"description": "(Required) your API key",
 								"key": "abcheader",
-								"value": "consectetur tempor pariatur aliqua"
+								"value": "nisi dolor"
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/space/?cdf=consectetur tempor pariatur aliqua",
+							"raw": "{{baseUrl}}/space/?cdf=nisi dolor",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -218,7 +218,7 @@
 							"query": [
 								{
 									"key": "cdf",
-									"value": "consectetur tempor pariatur aliqua"
+									"value": "nisi dolor"
 								}
 							]
 						}
@@ -233,13 +233,13 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n  \"message\": \"irure ut\"\n}"
+					"body": "{\n  \"message\": \"aute et\"\n}"
 				}
 			]
 		},
 		{
 			"name": "POST aaaa spacecraft hsssere again now now",
-			"id": "f93f05f9-19dc-4770-8b1e-a244b7bcf449",
+			"id": "84da84f3-dec0-4397-943d-aa960aff80cc",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -259,7 +259,7 @@
 			},
 			"response": [
 				{
-					"id": "0afe5901-7de0-403f-a08b-b508b3de623a",
+					"id": "5679720c-7e47-43cd-9f37-c8c5917fd37b",
 					"name": "These spacecraft corresponding to the provided `spacecraftId`",
 					"originalRequest": {
 						"method": "POST",
@@ -285,10 +285,10 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n  \"id\": \"reprehend\",\n  \"name\": 92163656.36214903,\n  \"type\": \"spaceplane\",\n  \"description\": -73241507.08761153\n}"
+					"body": "{\n  \"id\": \"proident nisi laboris nostrud do\",\n  \"name\": 89967755.21645483,\n  \"type\": \"station\",\n  \"description\": -41746622.06844064\n}"
 				},
 				{
-					"id": "568a1ed8-7a18-407c-aecd-c8fb364a4922",
+					"id": "51abc3ad-d4f3-413b-b3c5-a35a731ec04d",
 					"name": "These spacecraft corresponding to the ssss provided `spacecraftId`",
 					"originalRequest": {
 						"method": "POST",
@@ -314,7 +314,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n  \"id\": \"reprehend\",\n  \"name\": 92163656.36214903,\n  \"type\": \"spaceplane\",\n  \"description\": -73241507.08761153\n}"
+					"body": "{\n  \"id\": \"proident nisi laboris nostrud do\",\n  \"name\": 89967755.21645483,\n  \"type\": \"station\",\n  \"description\": -41746622.06844064\n}"
 				}
 			]
 		}
@@ -341,7 +341,7 @@
 	},
 	"variable": [
 		{
-			"id": "0592932a-d9be-4e7b-ab31-42d4145206a6",
+			"id": "f918124c-d05a-461f-aa34-cf18f9d2ac39",
 			"key": "baseUrl",
 			"value": "/",
 			"type": "any"

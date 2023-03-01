@@ -7,6 +7,13 @@ paths:
   /space/:
     get:
       parameters:
+      - name: fwrzofiroi
+        in: header
+        description: your API key
+        required: true
+        explode: false
+        schema:
+          type: string
       - name: Update
         in: header
         description: your API key
@@ -56,21 +63,6 @@ paths:
                 $ref: '#/components/schemas/Error'
     post:
       summary: POST aaaa spacecraft hsssere again now now
-      responses:
-        '200': 
-          description: These spacecraft corresponding to the provided `spacecraftId`
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Spacecraft'
-        '201':
-          description: These spacecraft corresponding to the ssss provided `spacecraftId`
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Spacecraft'
-    delete:
-      summary: POST aaaa spacecraft hsssere
       responses:
         '200': 
           description: These spacecraft corresponding to the provided `spacecraftId`
