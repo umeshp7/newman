@@ -1,0 +1,425 @@
+{
+	"info": {
+		"_postman_id": "febdfdef-1c6e-46ff-a041-89507b652f16",
+		"name": "Check gen",
+		"description": "Buy or rent",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "466628-febdfdef-1c6e-46ff-a041-89507b652f16"
+	},
+	"item": [
+		{
+			"name": "Update okay",
+			"id": "6fb6a571-2dab-4add-8c50-966e9498f6ca",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"description": "(Required) your API key",
+						"key": "Update",
+						"value": "cillum officia sint anim"
+					},
+					{
+						"description": "(Required) your API key",
+						"key": "abcheader",
+						"value": "cillum officia sint anim"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/space/?cdf=cillum officia sint anim",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"space",
+						""
+					],
+					"query": [
+						{
+							"description": "(Required) your API key",
+							"key": "cdf",
+							"value": "cillum officia sint anim"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "d678d5a0-c0b1-4440-a6a2-eb387719a8a0",
+					"name": "These spacecraft corresponding to the provided `spacecraftId`",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) your API key",
+								"key": "Update",
+								"value": "cillum officia sint anim"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "abcheader",
+								"value": "cillum officia sint anim"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=cillum officia sint anim",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"key": "cdf",
+									"value": "cillum officia sint anim"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"amet proident aute\",\n  \"name\": 85551149.67035946,\n  \"type\": \"station\",\n  \"description\": -237932.3812689036\n}"
+				},
+				{
+					"id": "2be17be6-92be-41b7-8e61-c4d20461fbd5",
+					"name": "These spacecraft corresponding to the ssss provided `spacecraftId`",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) your API key",
+								"key": "Update",
+								"value": "cillum officia sint anim"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "abcheader",
+								"value": "cillum officia sint anim"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=cillum officia sint anim",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"key": "cdf",
+									"value": "cillum officia sint anim"
+								}
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"amet proident aute\",\n  \"name\": 85551149.67035946,\n  \"type\": \"station\",\n  \"description\": -237932.3812689036\n}"
+				},
+				{
+					"id": "a882f0ba-f7fc-4900-8502-85b603dc0119",
+					"name": "No spacecraft found for the provided `spacecraftId`",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) your API key",
+								"key": "Update",
+								"value": "cillum officia sint anim"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "abcheader",
+								"value": "cillum officia sint anim"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=cillum officia sint anim",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"key": "cdf",
+									"value": "cillum officia sint anim"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"message\": \"consequat deserunt nisi incididunt dolor\"\n}"
+				},
+				{
+					"id": "7f1d135b-916d-4027-9379-2232a9ff8c41",
+					"name": "Unexpected error",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) your API key",
+								"key": "Update",
+								"value": "cillum officia sint anim"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "abcheader",
+								"value": "cillum officia sint anim"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=cillum officia sint anim",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"key": "cdf",
+									"value": "cillum officia sint anim"
+								}
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"message\": \"consequat deserunt nisi incididunt dolor\"\n}"
+				}
+			]
+		},
+		{
+			"name": "POSTdfdf aaaa spacecraft hsssere again now now",
+			"id": "1dcb8a06-0019-4f11-aa3c-4edb72cb3543",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/space/",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"space",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "48169e7d-53c3-4306-8602-844bd5263f54",
+					"name": "These spacecraft corresponding to the provided `spacecraftId`",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/space/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"amet proident aute\",\n  \"name\": 85551149.67035946,\n  \"type\": \"station\",\n  \"description\": -237932.3812689036\n}"
+				},
+				{
+					"id": "48e80578-75ce-436b-a3b3-1fb46e851d1b",
+					"name": "These spacecraft corresponding to the ssss provided `spacecraftId`",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/space/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"amet proident aute\",\n  \"name\": 85551149.67035946,\n  \"type\": \"station\",\n  \"description\": -237932.3812689036\n}"
+				}
+			]
+		},
+		{
+			"name": "POST aaaa spacecraft hsssere again now now",
+			"id": "9ccbfbaf-b6ef-457f-a7da-4827843a6916",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/space/",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"space",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "4370cd91-89c4-456a-92ac-9007d7bfff4d",
+					"name": "These spacecraft corresponding to the provided `spacecraftId`",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/space/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"amet proident aute\",\n  \"name\": 85551149.67035946,\n  \"type\": \"station\",\n  \"description\": -237932.3812689036\n}"
+				},
+				{
+					"id": "2adb6cfc-b40f-4556-aa81-63421d70d9d8",
+					"name": "These spacecraft corresponding to the ssss provided `spacecraftId`",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/space/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"amet proident aute\",\n  \"name\": 85551149.67035946,\n  \"type\": \"station\",\n  \"description\": -237932.3812689036\n}"
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "key",
+				"value": "X-Api-Key",
+				"type": "string"
+			},
+			{
+				"key": "value",
+				"value": "{{apiKey}}",
+				"type": "string"
+			},
+			{
+				"key": "in",
+				"value": "header",
+				"type": "string"
+			}
+		]
+	},
+	"variable": [
+		{
+			"id": "881feb69-a494-4101-b668-8df4979c8b4d",
+			"key": "baseUrl",
+			"value": "/"
+		}
+	]
+}

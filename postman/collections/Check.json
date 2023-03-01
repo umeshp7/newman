@@ -11,7 +11,7 @@
 			"name": "space",
 			"item": [
 				{
-					"name": "Update request check",
+					"name": "Update okay",
 					"id": "57553de2-6cdd-45e8-99d2-ea2d1fc19ab4",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true

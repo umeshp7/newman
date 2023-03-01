@@ -28,7 +28,7 @@ paths:
         explode: false
         schema:
           type: string
-      summary: Update request check
+      summary: Update okay
       responses:
         '200': 
           description: These spacecraft corresponding to the provided `spacecraftId`
@@ -70,6 +70,21 @@ paths:
               schema:
                 $ref: '#/components/schemas/Spacecraft'
     put:
+      summary: POST aaaa spacecraft hsssere again now now
+      responses:
+        '200': 
+          description: These spacecraft corresponding to the provided `spacecraftId`
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Spacecraft'
+        '201':
+          description: These spacecraft corresponding to the ssss provided `spacecraftId`
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Spacecraft'
+    patch:
       summary: POST aaaa spacecraft hsssere again now now
       responses:
         '200': 

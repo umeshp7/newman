@@ -1,0 +1,453 @@
+{
+	"info": {
+		"_postman_id": "3fe2ccef-f91f-4cb7-bdb7-07e30aa66ab9",
+		"name": "Check this",
+		"description": "Buy or rent",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "466628-3fe2ccef-f91f-4cb7-bdb7-07e30aa66ab9"
+	},
+	"item": [
+		{
+			"name": "Update okay",
+			"id": "b10d0b45-daa8-43ed-97a5-2b22979a96ca",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"description": "(Required) your API key",
+						"key": "Update",
+						"value": "officia dolor"
+					},
+					{
+						"description": "(Required) your API key",
+						"key": "abcheader",
+						"value": "officia dolor"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/space/?cdf=officia dolor",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"space",
+						""
+					],
+					"query": [
+						{
+							"description": "(Required) your API key",
+							"key": "cdf",
+							"value": "officia dolor"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "d36ec9ee-ba00-4c29-a00f-314726888936",
+					"name": "These spacecraft corresponding to the provided `spacecraftId`",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) your API key",
+								"key": "Update",
+								"value": "officia dolor"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "abcheader",
+								"value": "officia dolor"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=officia dolor",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"key": "cdf",
+									"value": "officia dolor"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"ipsum enim reprehenderit sed\",\n  \"name\": 38907531.66884339,\n  \"type\": \"capsule\",\n  \"description\": 21146876.962178722\n}"
+				},
+				{
+					"id": "0ddefcce-ff94-419f-8b67-9867c31c0b7b",
+					"name": "These spacecraft corresponding to the ssss provided `spacecraftId`",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) your API key",
+								"key": "Update",
+								"value": "officia dolor"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "abcheader",
+								"value": "officia dolor"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=officia dolor",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"key": "cdf",
+									"value": "officia dolor"
+								}
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"ipsum enim reprehenderit sed\",\n  \"name\": 38907531.66884339,\n  \"type\": \"capsule\",\n  \"description\": 21146876.962178722\n}"
+				},
+				{
+					"id": "ab62378d-cfa4-482c-845a-4d69f993afce",
+					"name": "No spacecraft found for the provided `spacecraftId`",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) your API key",
+								"key": "Update",
+								"value": "officia dolor"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "abcheader",
+								"value": "officia dolor"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=officia dolor",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"key": "cdf",
+									"value": "officia dolor"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"message\": \"anim elit paria\"\n}"
+				},
+				{
+					"id": "80f1767c-814b-4159-826c-8791ea586628",
+					"name": "Unexpected error",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) your API key",
+								"key": "Update",
+								"value": "officia dolor"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "abcheader",
+								"value": "officia dolor"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=officia dolor",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"key": "cdf",
+									"value": "officia dolor"
+								}
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"message\": \"anim elit paria\"\n}"
+				}
+			]
+		},
+		{
+			"name": "POSTdfdf aaaa spacecraft hsssere again now now",
+			"id": "5df0a5b1-5513-4ebd-bb72-18e3fc0eb2c0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/space/",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"space",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "4ff78fb5-7522-4550-bb50-b558fa7f2f76",
+					"name": "These spacecraft corresponding to the provided `spacecraftId`",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/space/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"ipsum enim reprehenderit sed\",\n  \"name\": 38907531.66884339,\n  \"type\": \"capsule\",\n  \"description\": 21146876.962178722\n}"
+				},
+				{
+					"id": "edbf39c8-69cd-4651-8e97-53d694f386b2",
+					"name": "These spacecraft corresponding to the ssss provided `spacecraftId`",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/space/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"ipsum enim reprehenderit sed\",\n  \"name\": 38907531.66884339,\n  \"type\": \"capsule\",\n  \"description\": 21146876.962178722\n}"
+				}
+			]
+		},
+		{
+			"name": "POST aaaa spacecraft hsssere again now now",
+			"id": "7d80694d-bc65-41cf-a48a-ec8478ef757c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/space/",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"space",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "1767b2f3-b23d-4774-a925-3a22aa8a8646",
+					"name": "These spacecraft corresponding to the provided `spacecraftId`",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/space/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"ipsum enim reprehenderit sed\",\n  \"name\": 38907531.66884339,\n  \"type\": \"capsule\",\n  \"description\": 21146876.962178722\n}"
+				},
+				{
+					"id": "25b0f081-439a-4ad9-a3bc-e2a889ac4931",
+					"name": "These spacecraft corresponding to the ssss provided `spacecraftId`",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/space/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"ipsum enim reprehenderit sed\",\n  \"name\": 38907531.66884339,\n  \"type\": \"capsule\",\n  \"description\": 21146876.962178722\n}"
+				}
+			]
+		},
+		{
+			"name": "POST aaaa spacecraft hsssere again now now",
+			"id": "b19d4c83-2f75-453b-adfb-d02c16d5f172",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/space/",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"space",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "key",
+				"value": "X-Api-Key",
+				"type": "string"
+			},
+			{
+				"key": "value",
+				"value": "{{apiKey}}",
+				"type": "string"
+			},
+			{
+				"key": "in",
+				"value": "header",
+				"type": "string"
+			}
+		]
+	},
+	"variable": [
+		{
+			"id": "49079d4f-c90e-4bcc-a4d7-f9e4ab56d879",
+			"key": "baseUrl",
+			"value": "/",
+			"type": "string"
+		}
+	]
+}

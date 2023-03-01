@@ -1,0 +1,425 @@
+{
+	"info": {
+		"_postman_id": "83b0366a-7af8-41a8-8da2-481c699a374e",
+		"name": "acef",
+		"description": "Buy or rent",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "466628-83b0366a-7af8-41a8-8da2-481c699a374e"
+	},
+	"item": [
+		{
+			"name": "Update okay",
+			"id": "959524a7-b06a-4c12-b174-87d17fb8c8cb",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"description": "(Required) your API key",
+						"key": "Update",
+						"value": "veniam pariatur"
+					},
+					{
+						"description": "(Required) your API key",
+						"key": "abcheader",
+						"value": "veniam pariatur"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/space/?cdf=veniam pariatur",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"space",
+						""
+					],
+					"query": [
+						{
+							"description": "(Required) your API key",
+							"key": "cdf",
+							"value": "veniam pariatur"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "b0199f93-a93b-4248-b895-f0c0c5433fe3",
+					"name": "These spacecraft corresponding to the provided `spacecraftId`",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) your API key",
+								"key": "Update",
+								"value": "veniam pariatur"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "abcheader",
+								"value": "veniam pariatur"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=veniam pariatur",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"key": "cdf",
+									"value": "veniam pariatur"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"nostrud in in ut\",\n  \"name\": -96769758.8551557,\n  \"type\": \"spaceplane\",\n  \"description\": 31780006.086618766\n}"
+				},
+				{
+					"id": "6c08505d-a363-4447-b813-fb4a0e4d8372",
+					"name": "These spacecraft corresponding to the ssss provided `spacecraftId`",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) your API key",
+								"key": "Update",
+								"value": "veniam pariatur"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "abcheader",
+								"value": "veniam pariatur"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=veniam pariatur",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"key": "cdf",
+									"value": "veniam pariatur"
+								}
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"nostrud in in ut\",\n  \"name\": -96769758.8551557,\n  \"type\": \"spaceplane\",\n  \"description\": 31780006.086618766\n}"
+				},
+				{
+					"id": "cfcac5fc-d854-43d7-8cac-48597dcb6f24",
+					"name": "No spacecraft found for the provided `spacecraftId`",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) your API key",
+								"key": "Update",
+								"value": "veniam pariatur"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "abcheader",
+								"value": "veniam pariatur"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=veniam pariatur",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"key": "cdf",
+									"value": "veniam pariatur"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"message\": \"sit anim consectetur culpa\"\n}"
+				},
+				{
+					"id": "ba606a42-a254-4d29-a6c1-165e152e96e9",
+					"name": "Unexpected error",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) your API key",
+								"key": "Update",
+								"value": "veniam pariatur"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "abcheader",
+								"value": "veniam pariatur"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=veniam pariatur",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"key": "cdf",
+									"value": "veniam pariatur"
+								}
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"message\": \"sit anim consectetur culpa\"\n}"
+				}
+			]
+		},
+		{
+			"name": "POSTdfdf aaaa spacecraft hsssere again now now",
+			"id": "66e27eb3-2f70-45a1-b2de-83ed00cb49cb",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/space/",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"space",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "21aaa1d1-4447-413d-9b63-7dc2f599c8cf",
+					"name": "These spacecraft corresponding to the provided `spacecraftId`",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/space/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"nostrud in in ut\",\n  \"name\": -96769758.8551557,\n  \"type\": \"spaceplane\",\n  \"description\": 31780006.086618766\n}"
+				},
+				{
+					"id": "d1832dd9-7598-44eb-8891-5a4122cdfbef",
+					"name": "These spacecraft corresponding to the ssss provided `spacecraftId`",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/space/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"nostrud in in ut\",\n  \"name\": -96769758.8551557,\n  \"type\": \"spaceplane\",\n  \"description\": 31780006.086618766\n}"
+				}
+			]
+		},
+		{
+			"name": "POST aaaa spacecraft hsssere again now now",
+			"id": "4273b491-ce9a-4563-93d1-4221844ba3f0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/space/",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"space",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "8c718142-35d9-441f-9696-3e06a76c066a",
+					"name": "These spacecraft corresponding to the provided `spacecraftId`",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/space/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"nostrud in in ut\",\n  \"name\": -96769758.8551557,\n  \"type\": \"spaceplane\",\n  \"description\": 31780006.086618766\n}"
+				},
+				{
+					"id": "7f335098-0304-446e-bb51-64c1b836e94f",
+					"name": "These spacecraft corresponding to the ssss provided `spacecraftId`",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/space/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"nostrud in in ut\",\n  \"name\": -96769758.8551557,\n  \"type\": \"spaceplane\",\n  \"description\": 31780006.086618766\n}"
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "key",
+				"value": "X-Api-Key",
+				"type": "string"
+			},
+			{
+				"key": "value",
+				"value": "{{apiKey}}",
+				"type": "string"
+			},
+			{
+				"key": "in",
+				"value": "header",
+				"type": "string"
+			}
+		]
+	},
+	"variable": [
+		{
+			"id": "63a28aa6-5832-4cf4-ab5b-374dad2c0618",
+			"key": "baseUrl",
+			"value": "/"
+		}
+	]
+}
