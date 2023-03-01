@@ -2,7 +2,7 @@ openapi: '3.0.0'
 info:
   version: '1.0.0'
   title: 'Sample API '
-  description: Buy or rent
+  description: Buy or rents
 paths:
   /space/:
     get:
@@ -55,21 +55,6 @@ paths:
               schema:
                 $ref: '#/components/schemas/Error'
     post:
-      summary: POSTdfdf aaaa spacecraft hsssere again now now
-      responses:
-        '200': 
-          description: These spacecraft corresponding to the provided `spacecraftId`
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Spacecraft'
-        '201':
-          description: These spacecraft corresponding to the ssss provided `spacecraftId`
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Spacecraft'
-    put:
       summary: POST aaaa spacecraft hsssere again now now
       responses:
         '200': 
@@ -84,8 +69,8 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/Spacecraft'
-    patch:
-      summary: POST aaaa spacecraft hsssere again now now
+    delete:
+      summary: POST aaaa spacecraft hsssere
       responses:
         '200': 
           description: These spacecraft corresponding to the provided `spacecraftId`

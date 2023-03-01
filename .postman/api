@@ -5,6 +5,8 @@ id = eafaa6a2-29cd-46c4-b734-9095df17f686
 
 [relations.collections]
 rootDirectory = postman/collections
+files[] = {"id":"466628-cc1d2dec-1b0c-4b49-b6b5-c3a1e7d3b5be","path":"efwr.json","metaData":{"generateCollectionPreferences":"{\"requestNameSource\":\"Fallback\",\"indentCharacter\":\"Space\",\"collapseFolders\":true,\"optimizeConversion\":true,\"requestParametersResolution\":\"Example\",\"exampleParametersResolution\":\"Schema\",\"folderStrategy\":\"Paths\",\"includeAuthInfoInExample\":true,\"enableOptionalParameters\":true,\"keepImplicitHeaders\":false,\"includeDeprecated\":true,\"updateCollectionSync\":true}"}}
+files[] = {"id":"466628-5db8d57d-ad60-4672-9714-d064130125b1","path":"New Collection.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
 
 [relations.collections.metaData]
 466628-0c58bc55-5a77-4314-b976-8b52e1582890 = {"requestNameSource":"Fallback","indentCharacter":"Space","collapseFolders":true,"optimizeConversion":true,"requestParametersResolution":"Example","exampleParametersResolution":"Schema","folderStrategy":"Paths","includeAuthInfoInExample":true,"enableOptionalParameters":true,"keepImplicitHeaders":false,"includeDeprecated":true}

@@ -1,0 +1,425 @@
+{
+	"info": {
+		"_postman_id": "cc1d2dec-1b0c-4b49-b6b5-c3a1e7d3b5be",
+		"name": "efwr",
+		"description": "Buy or rents",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "466628-cc1d2dec-1b0c-4b49-b6b5-c3a1e7d3b5be"
+	},
+	"item": [
+		{
+			"name": "Update okay",
+			"id": "0ae77b7a-62b1-403f-a395-497e48c570c0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"description": "(Required) your API key",
+						"key": "Update",
+						"value": "consectetur tempor pariatur aliqua"
+					},
+					{
+						"description": "(Required) your API key",
+						"key": "abcheader",
+						"value": "consectetur tempor pariatur aliqua"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/space/?cdf=consectetur tempor pariatur aliqua",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"space",
+						""
+					],
+					"query": [
+						{
+							"description": "(Required) your API key",
+							"key": "cdf",
+							"value": "consectetur tempor pariatur aliqua"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "f9c68129-931f-4930-864e-3b533a965f29",
+					"name": "These spacecraft corresponding to the provided `spacecraftId`",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) your API key",
+								"key": "Update",
+								"value": "consectetur tempor pariatur aliqua"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "abcheader",
+								"value": "consectetur tempor pariatur aliqua"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=consectetur tempor pariatur aliqua",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"key": "cdf",
+									"value": "consectetur tempor pariatur aliqua"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"reprehend\",\n  \"name\": 92163656.36214903,\n  \"type\": \"spaceplane\",\n  \"description\": -73241507.08761153\n}"
+				},
+				{
+					"id": "ab00a392-ff41-4c3b-a779-8bd94711f0e2",
+					"name": "These spacecraft corresponding to the ssss provided `spacecraftId`",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) your API key",
+								"key": "Update",
+								"value": "consectetur tempor pariatur aliqua"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "abcheader",
+								"value": "consectetur tempor pariatur aliqua"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=consectetur tempor pariatur aliqua",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"key": "cdf",
+									"value": "consectetur tempor pariatur aliqua"
+								}
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"reprehend\",\n  \"name\": 92163656.36214903,\n  \"type\": \"spaceplane\",\n  \"description\": -73241507.08761153\n}"
+				},
+				{
+					"id": "9bb344f9-3ae8-49fc-ade0-3d7223f51d09",
+					"name": "No spacecraft found for the provided `spacecraftId`",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) your API key",
+								"key": "Update",
+								"value": "consectetur tempor pariatur aliqua"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "abcheader",
+								"value": "consectetur tempor pariatur aliqua"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=consectetur tempor pariatur aliqua",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"key": "cdf",
+									"value": "consectetur tempor pariatur aliqua"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"message\": \"irure ut\"\n}"
+				},
+				{
+					"id": "98699775-af51-4fe3-b577-8ded0c5ca519",
+					"name": "Unexpected error",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) your API key",
+								"key": "Update",
+								"value": "consectetur tempor pariatur aliqua"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "abcheader",
+								"value": "consectetur tempor pariatur aliqua"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=consectetur tempor pariatur aliqua",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"key": "cdf",
+									"value": "consectetur tempor pariatur aliqua"
+								}
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"message\": \"irure ut\"\n}"
+				}
+			]
+		},
+		{
+			"name": "POST aaaa spacecraft hsssere again now now",
+			"id": "f93f05f9-19dc-4770-8b1e-a244b7bcf449",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/space/",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"space",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "0afe5901-7de0-403f-a08b-b508b3de623a",
+					"name": "These spacecraft corresponding to the provided `spacecraftId`",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/space/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"reprehend\",\n  \"name\": 92163656.36214903,\n  \"type\": \"spaceplane\",\n  \"description\": -73241507.08761153\n}"
+				},
+				{
+					"id": "568a1ed8-7a18-407c-aecd-c8fb364a4922",
+					"name": "These spacecraft corresponding to the ssss provided `spacecraftId`",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/space/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"reprehend\",\n  \"name\": 92163656.36214903,\n  \"type\": \"spaceplane\",\n  \"description\": -73241507.08761153\n}"
+				}
+			]
+		},
+		{
+			"name": "POST aaaa spacecraft hsssere",
+			"id": "35134450-31de-479d-a16f-be2eb000d747",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/space/",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"space",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "993329a8-16d2-4cb2-83ad-fe401870176c",
+					"name": "These spacecraft corresponding to the provided `spacecraftId`",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/space/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"reprehend\",\n  \"name\": 92163656.36214903,\n  \"type\": \"spaceplane\",\n  \"description\": -73241507.08761153\n}"
+				},
+				{
+					"id": "e81d6ec8-5458-454c-aed0-c1791347a843",
+					"name": "These spacecraft corresponding to the ssss provided `spacecraftId`",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/space/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"reprehend\",\n  \"name\": 92163656.36214903,\n  \"type\": \"spaceplane\",\n  \"description\": -73241507.08761153\n}"
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "key",
+				"value": "X-Api-Key",
+				"type": "string"
+			},
+			{
+				"key": "value",
+				"value": "{{apiKey}}",
+				"type": "string"
+			},
+			{
+				"key": "in",
+				"value": "header",
+				"type": "string"
+			}
+		]
+	},
+	"variable": [
+		{
+			"id": "0592932a-d9be-4e7b-ab31-42d4145206a6",
+			"key": "baseUrl",
+			"value": "/"
+		}
+	]
+}

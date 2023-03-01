@@ -1,0 +1,116 @@
+{
+	"info": {
+		"_postman_id": "5db8d57d-ad60-4672-9714-d064130125b1",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "466628-5db8d57d-ad60-4672-9714-d064130125b1"
+	},
+	"item": [
+		{
+			"name": "Update okay",
+			"id": "ae9d6537-6a1e-4252-9bcd-ca7826a0506a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"description": "(Required) your API key",
+						"key": "Update",
+						"value": "<string>"
+					},
+					{
+						"description": "(Required) your API key",
+						"key": "abcheader",
+						"value": "<string>"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/space/?cdf=<string>",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"space",
+						""
+					],
+					"query": [
+						{
+							"description": "(Required) your API key",
+							"key": "cdf",
+							"value": "<string>"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST aaaa spacecraft hsssere again now now",
+			"id": "984dc3e6-2388-4b50-9f27-f8f1372cc076",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/space/",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"space",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST aaaa spacecraft hsssere again now now",
+			"id": "387917cc-d3a3-4bf6-a1cc-c97b5f907c42",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/space/",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"space",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"id": "40a5ee2d-9078-438f-93a9-0b1a9a42be6b",
+			"key": "baseUrl",
+			"value": "/",
+			"type": "string"
+		}
+	]
+}
