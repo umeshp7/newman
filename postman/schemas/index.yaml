@@ -76,6 +76,21 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/Spacecraft'
+    delete:
+      summary: POST aaaa spacecraft hsssere again now now
+      responses:
+        '200': 
+          description: These spacecraft corresponding to the provided `spacecraftId`
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Spacecraft'
+        '201':
+          description: These spacecraft corresponding to the ssss provided `spacecraftId`
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Spacecraft'
 components:
   schemas:
     SpacecraftId:
