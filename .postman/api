@@ -5,31 +5,16 @@ id = eafaa6a2-29cd-46c4-b734-9095df17f686
 
 [relations.collections]
 rootDirectory = postman/collections
-files[] = {"id":"466628-754b963e-f122-4939-a76c-7c26ca179f05","path":"AEfowrfo.json","metaData":{}}
-files[] = {"id":"466628-bc1d3ed3-ca48-45b4-a1a5-f5fa50fb6eaf","path":"Generated from def.json","metaData":{}}
-files[] = {"id":"466628-649490da-2fee-47dc-adc5-671db8208596","path":"Generated from definition.json","metaData":{}}
-files[] = {"id":"466628-b4ac40c2-b56c-46a3-9c8d-fd55a048021b","path":"Missing requests.json","metaData":{}}
-files[] = {"id":"466628-67cdc085-8620-4e7e-b888-0cb49641ddb5","path":"new check.json","metaData":{}}
-files[] = {"id":"466628-60f6eb34-cbbf-419b-8723-d5b2609a52ae","path":"New gennnn.json","metaData":{}}
-files[] = {"id":"466628-eef12b58-3b52-44d6-b98a-8ca3cb41239c","path":"ojoijo.json","metaData":{}}
-files[] = {"id":"466628-54ccbe7d-d506-4967-8d4e-87c4473c6014","path":"wefwrgrw.json","metaData":{}}
-files[] = {"id":"466628-823fd08f-479a-4acc-b62b-2b6edab64541","path":"WITH CONFIG.json","metaData":{}}
-files[] = {"id":"466628-afb70684-ca60-4fa4-b2ac-9d572e906526","path":"wrgwrg.json","metaData":{}}
+files[] = {"id":"466628-293ce45a-2348-41e1-84f5-f4bd23c9ec2a","path":"AEfowrfo.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
+files[] = {"id":"466628-7d9719dc-5f2e-435c-80e8-4bd0c38da770","path":"Generate from definition.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
+files[] = {"id":"466628-1c8dff7c-02e2-43e5-a53b-25e97bf5cf88","path":"New Collection.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
+files[] = {"id":"466628-bab04587-e310-4cd6-988e-2b2efcdbc703","path":"New gennnn.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
+files[] = {"id":"466628-ba923dc2-2306-447b-8631-c45be1671871","path":"ojoijo.json","metaData":{}}
+files[] = {"id":"466628-6d047086-4920-43fc-953d-522f1c56cb2c","path":"wefwrgrw.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
+files[] = {"id":"466628-148cab16-84bb-4538-bce3-460ea6d52c80","path":"WITH CONFIG.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
+files[] = {"id":"466628-113d8257-d050-42ed-bf45-f475f79ed2a9","path":"wrgwrg.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
 
 [relations.collections.metaData]
-
-[relations.collections.metaData.config]
-requestNameSource = URL
-indentCharacter = Space
-collapseFolders = true
-optimizeConversion = true
-requestParametersResolution = Example
-exampleParametersResolution = Example
-folderStrategy = Paths
-includeAuthInfoInExample = true
-enableOptionalParameters = true
-keepImplicitHeaders = false
-includeDeprecated = true
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas

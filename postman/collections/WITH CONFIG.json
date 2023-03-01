@@ -1,17 +1,17 @@
 {
 	"info": {
-		"_postman_id": "823fd08f-479a-4acc-b62b-2b6edab64541",
+		"_postman_id": "148cab16-84bb-4538-bce3-460ea6d52c80",
 		"name": "WITH CONFIG",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "466628-823fd08f-479a-4acc-b62b-2b6edab64541"
+		"_uid": "466628-148cab16-84bb-4538-bce3-460ea6d52c80"
 	},
 	"item": [
 		{
 			"name": "pets",
 			"item": [
 				{
-					"name": "{{baseUrl}}/pets",
-					"id": "d0cd25c1-e18a-4327-937d-6ef31cd86fd5",
+					"name": "Chawrofjoriwjf o ",
+					"id": "a8f0c60f-b8ac-4536-b00e-974bd1d6970b",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -43,21 +43,21 @@
 							],
 							"query": [
 								{
+									"description": "(Required) variable",
 									"key": "check wirjfoirfjiro",
-									"value": "velit ad magna cillum,officia",
-									"description": "(Required) variable"
+									"value": "velit ad magna cillum,officia"
 								},
 								{
+									"description": "another random variable",
 									"key": "2222 ok",
-									"value": "6408735%20-15587201",
-									"description": "another random variable"
+									"value": "6408735%20-15587201"
 								}
 							]
 						}
 					},
 					"response": [
 						{
-							"id": "adb2b315-eee1-4390-9217-526ad44cde41",
+							"id": "ee76e1eb-473e-402f-b7ee-1e0b611d4357",
 							"name": "An paged array of pets",
 							"originalRequest": {
 								"method": "GET",
@@ -95,11 +95,14 @@
 							},
 							"status": "OK",
 							"code": 200,
-							"_postman_previewlanguage": "json",
+							"_postman_previewlanguage": "Text",
 							"header": [
 								{
 									"disabled": false,
-									"description": "A link to the next page of responses",
+									"description": {
+										"content": "A link to the next page of responses",
+										"type": "text/plain"
+									},
 									"key": "x-next",
 									"value": "ad consequat"
 								},
@@ -112,7 +115,7 @@
 							"body": "[\n  {\n    \"id\": -91277443,\n    \"name\": \"ut elit\",\n    \"tag\": \"fugiat ea Excepteur deserunt culpa\"\n  },\n  {\n    \"id\": 32783704,\n    \"name\": \"Ut nisi\",\n    \"tag\": \"id culpa\"\n  }\n]"
 						},
 						{
-							"id": "08d456cd-bb56-44df-af35-ecdb880588bf",
+							"id": "52e21521-d7ec-464b-8e36-2b63477e2a9a",
 							"name": "unexpected error",
 							"originalRequest": {
 								"method": "GET",
@@ -150,7 +153,7 @@
 							},
 							"status": "Internal Server Error",
 							"code": 500,
-							"_postman_previewlanguage": "json",
+							"_postman_previewlanguage": "Text",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -163,8 +166,8 @@
 					]
 				},
 				{
-					"name": "{{baseUrl}}/pets",
-					"id": "73a979a4-5ed7-4881-89f2-8c9383a09283",
+					"name": "Createet",
+					"id": "a690852d-02c8-458e-881a-208fff6d9246",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -193,7 +196,7 @@
 					},
 					"response": [
 						{
-							"id": "39b2a390-bc8e-46fe-93d9-54d8bf43d1a8",
+							"id": "1afd18c0-b83e-4c5f-b7a6-b29b66d65721",
 							"name": "Null response",
 							"originalRequest": {
 								"method": "POST",
@@ -216,7 +219,7 @@
 							},
 							"status": "Created",
 							"code": 201,
-							"_postman_previewlanguage": "text",
+							"_postman_previewlanguage": "Text",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -227,7 +230,7 @@
 							"body": ""
 						},
 						{
-							"id": "09c4d55b-9d1f-4898-8074-8b58a5f3184c",
+							"id": "5fe3feb0-ac26-42c0-81df-cc1eb52c70aa",
 							"name": "unexpected error",
 							"originalRequest": {
 								"method": "POST",
@@ -250,7 +253,7 @@
 							},
 							"status": "Internal Server Error",
 							"code": 500,
-							"_postman_previewlanguage": "json",
+							"_postman_previewlanguage": "Text",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -263,8 +266,8 @@
 					]
 				},
 				{
-					"name": "{{baseUrl}}/pets/:petId",
-					"id": "71e59c1c-1911-410f-a2a7-0ac1aad14d9b",
+					"name": "Info for a specific pet",
+					"id": "b708641a-6d1c-400d-b016-ab5bdac9adb6",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -296,7 +299,7 @@
 					},
 					"response": [
 						{
-							"id": "ee1fb372-b9e2-429b-96f2-a25c419092be",
+							"id": "eddce4fd-7565-40e4-82d8-ebcf5038a7a1",
 							"name": "Expected response to a valid request",
 							"originalRequest": {
 								"method": "GET",
@@ -321,7 +324,7 @@
 							},
 							"status": "OK",
 							"code": 200,
-							"_postman_previewlanguage": "json",
+							"_postman_previewlanguage": "Text",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -332,7 +335,7 @@
 							"body": "{\n  \"id\": -63082572,\n  \"name\": \"voluptate incididunt sunt in\",\n  \"tag\": \"irure Lorem laborum\"\n}"
 						},
 						{
-							"id": "58ec8f14-feaf-4074-b284-a35c2568df68",
+							"id": "6001156a-2137-467f-9d59-0bcdf191dc2e",
 							"name": "unexpected error",
 							"originalRequest": {
 								"method": "GET",
@@ -357,7 +360,7 @@
 							},
 							"status": "Internal Server Error",
 							"code": 500,
-							"_postman_previewlanguage": "json",
+							"_postman_previewlanguage": "Text",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -370,7 +373,7 @@
 					]
 				}
 			],
-			"id": "402a48ec-5f32-466b-91b8-95fc804b03a6"
+			"id": "414ac688-4c49-4349-a46e-513ee1b450ff"
 		}
 	],
 	"variable": [

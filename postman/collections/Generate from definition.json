@@ -1,17 +1,17 @@
 {
 	"info": {
-		"_postman_id": "bc1d3ed3-ca48-45b4-a1a5-f5fa50fb6eaf",
-		"name": "Generated from def",
+		"_postman_id": "7d9719dc-5f2e-435c-80e8-4bd0c38da770",
+		"name": "Generate from definition",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "466628-bc1d3ed3-ca48-45b4-a1a5-f5fa50fb6eaf"
+		"_uid": "466628-7d9719dc-5f2e-435c-80e8-4bd0c38da770"
 	},
 	"item": [
 		{
 			"name": "pets",
 			"item": [
 				{
-					"name": "List all pets check",
-					"id": "e19d71bb-95d4-4819-9fbd-3cea07632b25",
+					"name": "Chawrofjoriwjf o ",
+					"id": "902d1768-777e-42ca-945a-4bc42da7e03f",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -19,14 +19,20 @@
 						"method": "GET",
 						"header": [
 							{
-								"description": "How many items to return at one time (max 100)",
+								"description": "(Required) How many items to return at one time (max 100)",
+								"key": "efdfd",
+								"value": "76539663"
+							},
+							{
+								"description": "(Required) How many items to return at one time (max 100)",
 								"key": "limit",
-								"value": "-37332843"
+								"value": "59976052",
+								"disabled": true
 							},
 							{
 								"description": "How many items to return at one time (max 100)",
 								"key": "limit_2",
-								"value": "-37332843"
+								"value": "59976052"
 							},
 							{
 								"key": "Accept",
@@ -34,7 +40,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/pets?check=dolore exercitation proident occaecat,ut ullamco&2222 ok=85194740%2072376215",
+							"raw": "{{baseUrl}}/pets?2222 ok=-29662729%20-73473938&check wirjfoirfjiro=dolore consectetur sunt eu,et id consequat",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -44,37 +50,45 @@
 							"query": [
 								{
 									"description": "(Required) variable",
-									"key": "check",
-									"value": "dolore exercitation proident occaecat,ut ullamco"
+									"key": "New name",
+									"value": "dolore dolor,Duis enim id",
+									"disabled": true
 								},
 								{
 									"description": "another random variable",
 									"key": "2222 ok",
-									"value": "85194740%2072376215"
+									"value": "-29662729%20-73473938"
+								},
+								{
+									"description": "(Required) variable",
+									"key": "check wirjfoirfjiro",
+									"value": "dolore consectetur sunt eu,et id consequat"
 								}
 							]
 						}
 					},
 					"response": [
 						{
-							"id": "ce352e0d-cfb2-4a92-8194-fcd9a76f0736",
+							"id": "98b98258-0765-4456-a6b1-2183fbe28ee1",
 							"name": "An paged array of pets",
 							"originalRequest": {
 								"method": "GET",
 								"header": [
 									{
-										"description": "How many items to return at one time (max 100)",
-										"key": "limit",
-										"value": "<integer>"
+										"description": "(Required) How many items to return at one time (max 100)",
+										"key": "",
+										"value": "<integer>",
+										"disabled": true
 									},
 									{
 										"description": "How many items to return at one time (max 100)",
-										"key": "limit_2",
-										"value": "<integer>"
+										"key": "",
+										"value": "<integer>",
+										"disabled": true
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/pets?check=<string>,<string>&2222 ok=<long>%20<long>",
+									"raw": "{{baseUrl}}/pets",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -83,12 +97,14 @@
 									],
 									"query": [
 										{
-											"key": "check",
-											"value": "<string>,<string>"
+											"key": "",
+											"value": "<string>,<string>",
+											"disabled": true
 										},
 										{
-											"key": "2222 ok",
-											"value": "<long>%20<long>"
+											"key": "",
+											"value": "<long>%20<long>",
+											"disabled": true
 										}
 									]
 								}
@@ -112,16 +128,16 @@
 								}
 							],
 							"cookie": [],
-							"body": "[\n  {\n    \"id\": \"<long>\",\n    \"name\": \"<string>\",\n    \"tag\": \"<string>\"\n  },\n  {\n    \"id\": \"<long>\",\n    \"name\": \"<string>\",\n    \"tag\": \"<string>\"\n  }\n]"
+							"body": "[\n {\n  \"id\": -13555254,\n  \"name\": \"dolore ullamco ad laborum\",\n  \"tag\": \"do sint mollit\"\n },\n {\n  \"id\": 57681031,\n  \"name\": \"Lorem\",\n  \"tag\": \"aliqu\"\n },\n {\n  \"id\": 62517800,\n  \"name\": \"est in minim tempor\",\n  \"tag\": \"ipsum dolor in\"\n },\n {\n  \"id\": -57269139,\n  \"name\": \"labore in officia ea\",\n  \"tag\": \"Duis et incididunt laborum\"\n }\n]"
 						},
 						{
-							"id": "2e529caf-7204-4dd6-a9c9-43b2c8b93df8",
+							"id": "e8a562aa-26b0-4bb8-9e17-1b642c1303b4",
 							"name": "unexpected error",
 							"originalRequest": {
 								"method": "GET",
 								"header": [
 									{
-										"description": "How many items to return at one time (max 100)",
+										"description": "(Required) How many items to return at one time (max 100)",
 										"key": "limit",
 										"value": "<integer>"
 									},
@@ -132,7 +148,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/pets?check=<string>,<string>&2222 ok=<long>%20<long>",
+									"raw": "{{baseUrl}}/pets?New name=<string>,<string>&2222 ok=<long>%20<long>",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -141,7 +157,7 @@
 									],
 									"query": [
 										{
-											"key": "check",
+											"key": "New name",
 											"value": "<string>,<string>"
 										},
 										{
@@ -167,7 +183,7 @@
 				},
 				{
 					"name": "Createet",
-					"id": "84d7ca93-06a7-4d69-b629-617c424d7fce",
+					"id": "9d9c1811-b552-400b-9246-d55250f931ae",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -196,7 +212,7 @@
 					},
 					"response": [
 						{
-							"id": "bd341b90-b6e0-427d-98a4-7c82e820046b",
+							"id": "76a2863c-b5dc-44fe-ada6-9786a30237d3",
 							"name": "Null response",
 							"originalRequest": {
 								"method": "POST",
@@ -230,7 +246,7 @@
 							"body": ""
 						},
 						{
-							"id": "06084239-c9d8-4984-a8d9-19c5d69bc3aa",
+							"id": "f4063da8-4a86-440b-b44f-f7f4e9f0d34d",
 							"name": "unexpected error",
 							"originalRequest": {
 								"method": "POST",
@@ -267,7 +283,7 @@
 				},
 				{
 					"name": "Info for a specific pet",
-					"id": "5589cca2-7f54-4860-9ca5-9d1d730979cd",
+					"id": "2bd0046d-fc25-48b2-8d77-b5a2ab628006",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -291,7 +307,7 @@
 							"variable": [
 								{
 									"key": "petId",
-									"value": "cillum Lorem",
+									"value": "dolore id dolore",
 									"description": "(Required) The id of the pet to retrieve"
 								}
 							]
@@ -299,7 +315,7 @@
 					},
 					"response": [
 						{
-							"id": "50116551-1554-4ab2-80f8-a60ae2122d0a",
+							"id": "a158a888-0a14-4414-87f0-cc1d704966a5",
 							"name": "Expected response to a valid request",
 							"originalRequest": {
 								"method": "GET",
@@ -316,7 +332,7 @@
 									"variable": [
 										{
 											"key": "petId",
-											"value": "cillum Lorem",
+											"value": "dolore id dolore",
 											"description": "(Required) The id of the pet to retrieve"
 										}
 									]
@@ -335,7 +351,7 @@
 							"body": "{\n  \"id\": \"<long>\",\n  \"name\": \"<string>\",\n  \"tag\": \"<string>\"\n}"
 						},
 						{
-							"id": "752fac76-e4cc-49e2-870d-81b9d3c9b79b",
+							"id": "e11d5ef5-5b10-47bd-bc60-06bad654c242",
 							"name": "unexpected error",
 							"originalRequest": {
 								"method": "GET",
@@ -352,7 +368,7 @@
 									"variable": [
 										{
 											"key": "petId",
-											"value": "cillum Lorem",
+											"value": "dolore id dolore",
 											"description": "(Required) The id of the pet to retrieve"
 										}
 									]
@@ -373,12 +389,12 @@
 					]
 				}
 			],
-			"id": "ae95582e-b27f-4761-9581-27bde37e8935"
+			"id": "565e2120-5b5c-4e40-8361-a2afd1495bbd"
 		}
 	],
 	"variable": [
 		{
-			"id": "bfb1be01-d5b9-43ce-a991-a13c05395ec9",
+			"id": "9280e30f-ad79-44d8-be1b-a418bbf717a7",
 			"key": "baseUrl",
 			"value": "http://petstore.swagger.io/v1",
 			"type": "string"

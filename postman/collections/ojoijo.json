@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "eef12b58-3b52-44d6-b98a-8ca3cb41239c",
+		"_postman_id": "ba923dc2-2306-447b-8631-c45be1671871",
 		"name": "ojoijo",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "466628-eef12b58-3b52-44d6-b98a-8ca3cb41239c"
+		"_uid": "466628-ba923dc2-2306-447b-8631-c45be1671871"
 	},
 	"item": [
 		{
@@ -11,7 +11,7 @@
 			"item": [
 				{
 					"name": "{{baseUrl}}/pets",
-					"id": "822261a2-4271-452a-8456-d8dd6db65708",
+					"id": "13a5e7d8-c11e-4802-b61b-771ac6efb969",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -57,7 +57,7 @@
 					},
 					"response": [
 						{
-							"id": "ed32e674-7a08-4ad4-ba8c-c2051e3c3a6a",
+							"id": "e8c85007-a183-464d-8f8a-b8bdaf89302e",
 							"name": "An paged array of pets",
 							"originalRequest": {
 								"method": "GET",
@@ -96,6 +96,7 @@
 							"status": "OK",
 							"code": 200,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"disabled": false,
@@ -112,7 +113,7 @@
 							"body": "[\n  {\n    \"id\": 59861802,\n    \"name\": \"officia\",\n    \"tag\": \"tempor D\"\n  },\n  {\n    \"id\": -44633458,\n    \"name\": \"consequat mollit elit\",\n    \"tag\": \"enim labore et\"\n  }\n]"
 						},
 						{
-							"id": "0b932562-3cfe-4c81-8adc-f9d54511a9fe",
+							"id": "fad9ffa8-c602-47cf-b302-433cab8a8bb9",
 							"name": "unexpected error",
 							"originalRequest": {
 								"method": "GET",
@@ -151,6 +152,7 @@
 							"status": "Internal Server Error",
 							"code": 500,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -164,7 +166,7 @@
 				},
 				{
 					"name": "{{baseUrl}}/pets",
-					"id": "09e37b90-641a-46eb-8b2a-d2c5bf9757b5",
+					"id": "06013098-5e3f-4b37-b253-99ce1a7e70e3",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -193,7 +195,7 @@
 					},
 					"response": [
 						{
-							"id": "336d5c25-cb2f-43b7-993f-3a5ea798cb55",
+							"id": "040865e9-ed78-41e0-b0c0-ef25697a85af",
 							"name": "Null response",
 							"originalRequest": {
 								"method": "POST",
@@ -217,6 +219,7 @@
 							"status": "Created",
 							"code": 201,
 							"_postman_previewlanguage": "text",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -227,7 +230,7 @@
 							"body": ""
 						},
 						{
-							"id": "052bee8c-fa6b-4230-99d2-fa9a55b7d2df",
+							"id": "709685bf-1223-4b66-8659-a801b1868a47",
 							"name": "unexpected error",
 							"originalRequest": {
 								"method": "POST",
@@ -251,6 +254,7 @@
 							"status": "Internal Server Error",
 							"code": 500,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -264,7 +268,7 @@
 				},
 				{
 					"name": "{{baseUrl}}/pets/:petId",
-					"id": "ac873a00-5862-49a2-b0d1-7cf7aa5789fa",
+					"id": "86cb90c6-db88-4701-9cf7-4b6303c6a703",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -296,7 +300,7 @@
 					},
 					"response": [
 						{
-							"id": "4e009c44-99c0-4b83-827d-56b4a4794f86",
+							"id": "128740b5-4521-4b79-b000-ff152daa0df3",
 							"name": "Expected response to a valid request",
 							"originalRequest": {
 								"method": "GET",
@@ -322,6 +326,7 @@
 							"status": "OK",
 							"code": 200,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -332,7 +337,7 @@
 							"body": "{\n  \"id\": 13626210,\n  \"name\": \"proident cupidat\",\n  \"tag\": \"culpa sed amet in qui\"\n}"
 						},
 						{
-							"id": "8093e244-821d-491e-932f-16e90ab7aab1",
+							"id": "a70e1726-3f62-465b-a224-dc69aa4e7f12",
 							"name": "unexpected error",
 							"originalRequest": {
 								"method": "GET",
@@ -358,6 +363,7 @@
 							"status": "Internal Server Error",
 							"code": 500,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -370,7 +376,7 @@
 					]
 				}
 			],
-			"id": "750e7244-e1d1-417f-b303-c76d7595ac73"
+			"id": "9d8838f3-4e2a-4e69-84fb-054ada98c27d"
 		}
 	],
 	"variable": [
