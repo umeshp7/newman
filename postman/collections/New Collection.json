@@ -1,14 +1,14 @@
 {
 	"info": {
-		"_postman_id": "6e7397db-4001-4c36-b153-2a57997b2513",
+		"_postman_id": "60f4c215-16e7-458a-becd-1d293ca113b5",
 		"name": "New Collection",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "466628-6e7397db-4001-4c36-b153-2a57997b2513"
+		"_uid": "466628-60f4c215-16e7-458a-becd-1d293ca113b5"
 	},
 	"item": [
 		{
 			"name": "Update okay",
-			"id": "5703760e-bc07-4179-a66c-70b0d0a1cb8e",
+			"id": "3ce3b8da-7407-46b2-abde-78eb8c988198",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -18,17 +18,17 @@
 					{
 						"description": "(Required) your API key",
 						"key": "fwrzofiroi",
-						"value": "<string>"
+						"value": "magna in"
 					},
 					{
 						"description": "(Required) your API key",
 						"key": "Update",
-						"value": "<string>"
+						"value": "magna in"
 					},
 					{
 						"description": "(Required) your API key",
 						"key": "abcheader",
-						"value": "<string>"
+						"value": "magna in"
 					},
 					{
 						"key": "Accept",
@@ -36,7 +36,7 @@
 					}
 				],
 				"url": {
-					"raw": "{{baseUrl}}/space/?cdf=<string>",
+					"raw": "{{baseUrl}}/space/?cdf=magna in",
 					"host": [
 						"{{baseUrl}}"
 					],
@@ -48,14 +48,14 @@
 						{
 							"description": "(Required) your API key",
 							"key": "cdf",
-							"value": "<string>"
+							"value": "magna in"
 						}
 					]
 				}
 			},
 			"response": [
 				{
-					"id": "94dbe077-6a5c-4a23-b7fc-e8c7614e9ac3",
+					"id": "53aa6eb4-083a-4039-9a67-50d363b76bfa",
 					"name": "These spacecraft corresponding to the provided `spacecraftId`",
 					"originalRequest": {
 						"method": "GET",
@@ -68,21 +68,21 @@
 							{
 								"description": "(Required) your API key",
 								"key": "fwrzofiroi",
-								"value": "<string>"
+								"value": "est"
 							},
 							{
 								"description": "(Required) your API key",
 								"key": "Update",
-								"value": "<string>"
+								"value": "est"
 							},
 							{
 								"description": "(Required) your API key",
 								"key": "abcheader",
-								"value": "<string>"
+								"value": "est"
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/space/?cdf=<string>",
+							"raw": "{{baseUrl}}/space/?cdf=est",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -93,7 +93,7 @@
 							"query": [
 								{
 									"key": "cdf",
-									"value": "<string>"
+									"value": "est"
 								}
 							]
 						}
@@ -108,10 +108,10 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n  \"id\": \"sint occaecat voluptate\",\n  \"name\": -69727084.43024631,\n  \"type\": \"capsule\",\n  \"description\": -10189082.682101741\n}"
+					"body": "{\n  \"id\": \"irure elit\",\n  \"name\": -98372080.6963956,\n  \"type\": \"spaceplane\",\n  \"description\": -87030926.67366388\n}"
 				},
 				{
-					"id": "b87d34ef-86df-44b5-b059-70ca5f2bea31",
+					"id": "9f4906d3-4bc7-46a1-8222-d8773d4ae2df",
 					"name": "These spacecraft corresponding to the ssss provided `spacecraftId`",
 					"originalRequest": {
 						"method": "GET",
@@ -124,21 +124,21 @@
 							{
 								"description": "(Required) your API key",
 								"key": "fwrzofiroi",
-								"value": "<string>"
+								"value": "est"
 							},
 							{
 								"description": "(Required) your API key",
 								"key": "Update",
-								"value": "<string>"
+								"value": "est"
 							},
 							{
 								"description": "(Required) your API key",
 								"key": "abcheader",
-								"value": "<string>"
+								"value": "est"
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/space/?cdf=<string>",
+							"raw": "{{baseUrl}}/space/?cdf=est",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -149,7 +149,7 @@
 							"query": [
 								{
 									"key": "cdf",
-									"value": "<string>"
+									"value": "est"
 								}
 							]
 						}
@@ -164,10 +164,10 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n  \"id\": \"sint occaecat voluptate\",\n  \"name\": -69727084.43024631,\n  \"type\": \"capsule\",\n  \"description\": -10189082.682101741\n}"
+					"body": "{\n  \"id\": \"irure elit\",\n  \"name\": -98372080.6963956,\n  \"type\": \"spaceplane\",\n  \"description\": -87030926.67366388\n}"
 				},
 				{
-					"id": "14ca1668-d0fd-47e9-998c-f9c60e50f2e9",
+					"id": "37f71e27-ba8e-4ad1-8ce7-e6665bade793",
 					"name": "No spacecraft found for the provided `spacecraftId`",
 					"originalRequest": {
 						"method": "GET",
@@ -180,21 +180,21 @@
 							{
 								"description": "(Required) your API key",
 								"key": "fwrzofiroi",
-								"value": "<string>"
+								"value": "est"
 							},
 							{
 								"description": "(Required) your API key",
 								"key": "Update",
-								"value": "<string>"
+								"value": "est"
 							},
 							{
 								"description": "(Required) your API key",
 								"key": "abcheader",
-								"value": "<string>"
+								"value": "est"
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/space/?cdf=<string>",
+							"raw": "{{baseUrl}}/space/?cdf=est",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -205,7 +205,7 @@
 							"query": [
 								{
 									"key": "cdf",
-									"value": "<string>"
+									"value": "est"
 								}
 							]
 						}
@@ -220,10 +220,10 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n  \"message\": \"mollit sit dolore elit ad\"\n}"
+					"body": "{\n  \"message\": \"nisi\"\n}"
 				},
 				{
-					"id": "8de84da9-f8aa-47f5-acc1-bad2d3860c5d",
+					"id": "216543ef-73b7-47a1-b7f8-1cdfc96a1d96",
 					"name": "Unexpected error",
 					"originalRequest": {
 						"method": "GET",
@@ -236,21 +236,21 @@
 							{
 								"description": "(Required) your API key",
 								"key": "fwrzofiroi",
-								"value": "<string>"
+								"value": "est"
 							},
 							{
 								"description": "(Required) your API key",
 								"key": "Update",
-								"value": "<string>"
+								"value": "est"
 							},
 							{
 								"description": "(Required) your API key",
 								"key": "abcheader",
-								"value": "<string>"
+								"value": "est"
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/space/?cdf=<string>",
+							"raw": "{{baseUrl}}/space/?cdf=est",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -261,7 +261,7 @@
 							"query": [
 								{
 									"key": "cdf",
-									"value": "<string>"
+									"value": "est"
 								}
 							]
 						}
@@ -276,237 +276,13 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n  \"message\": \"mollit sit dolore elit ad\"\n}"
-				},
-				{
-					"id": "94dbe077-6a5c-4a23-b7fc-e8c7614e9ac3",
-					"name": "These spacecraft corresponding to the provided `spacecraftId`",
-					"originalRequest": {
-						"method": "GET",
-						"header": [
-							{
-								"description": "Added as a part of security scheme: apikey",
-								"key": "X-Api-Key",
-								"value": "<API Key>"
-							},
-							{
-								"description": "(Required) your API key",
-								"key": "fwrzofiroi",
-								"value": "<string>"
-							},
-							{
-								"description": "(Required) your API key",
-								"key": "Update",
-								"value": "<string>"
-							},
-							{
-								"description": "(Required) your API key",
-								"key": "abcheader",
-								"value": "<string>"
-							}
-						],
-						"url": {
-							"raw": "{{baseUrl}}/space/?cdf=<string>",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"space",
-								""
-							],
-							"query": [
-								{
-									"key": "cdf",
-									"value": "<string>"
-								}
-							]
-						}
-					},
-					"status": "OK",
-					"code": 200,
-					"_postman_previewlanguage": "Text",
-					"header": [
-						{
-							"key": "Content-Type",
-							"value": "application/json"
-						}
-					],
-					"cookie": [],
-					"body": "{\n  \"id\": \"sint occaecat voluptate\",\n  \"name\": -69727084.43024631,\n  \"type\": \"capsule\",\n  \"description\": -10189082.682101741\n}"
-				},
-				{
-					"id": "b87d34ef-86df-44b5-b059-70ca5f2bea31",
-					"name": "These spacecraft corresponding to the ssss provided `spacecraftId`",
-					"originalRequest": {
-						"method": "GET",
-						"header": [
-							{
-								"description": "Added as a part of security scheme: apikey",
-								"key": "X-Api-Key",
-								"value": "<API Key>"
-							},
-							{
-								"description": "(Required) your API key",
-								"key": "fwrzofiroi",
-								"value": "<string>"
-							},
-							{
-								"description": "(Required) your API key",
-								"key": "Update",
-								"value": "<string>"
-							},
-							{
-								"description": "(Required) your API key",
-								"key": "abcheader",
-								"value": "<string>"
-							}
-						],
-						"url": {
-							"raw": "{{baseUrl}}/space/?cdf=<string>",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"space",
-								""
-							],
-							"query": [
-								{
-									"key": "cdf",
-									"value": "<string>"
-								}
-							]
-						}
-					},
-					"status": "Created",
-					"code": 201,
-					"_postman_previewlanguage": "Text",
-					"header": [
-						{
-							"key": "Content-Type",
-							"value": "application/json"
-						}
-					],
-					"cookie": [],
-					"body": "{\n  \"id\": \"sint occaecat voluptate\",\n  \"name\": -69727084.43024631,\n  \"type\": \"capsule\",\n  \"description\": -10189082.682101741\n}"
-				},
-				{
-					"id": "14ca1668-d0fd-47e9-998c-f9c60e50f2e9",
-					"name": "No spacecraft found for the provided `spacecraftId`",
-					"originalRequest": {
-						"method": "GET",
-						"header": [
-							{
-								"description": "Added as a part of security scheme: apikey",
-								"key": "X-Api-Key",
-								"value": "<API Key>"
-							},
-							{
-								"description": "(Required) your API key",
-								"key": "fwrzofiroi",
-								"value": "<string>"
-							},
-							{
-								"description": "(Required) your API key",
-								"key": "Update",
-								"value": "<string>"
-							},
-							{
-								"description": "(Required) your API key",
-								"key": "abcheader",
-								"value": "<string>"
-							}
-						],
-						"url": {
-							"raw": "{{baseUrl}}/space/?cdf=<string>",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"space",
-								""
-							],
-							"query": [
-								{
-									"key": "cdf",
-									"value": "<string>"
-								}
-							]
-						}
-					},
-					"status": "Not Found",
-					"code": 404,
-					"_postman_previewlanguage": "Text",
-					"header": [
-						{
-							"key": "Content-Type",
-							"value": "application/json"
-						}
-					],
-					"cookie": [],
-					"body": "{\n  \"message\": \"mollit sit dolore elit ad\"\n}"
-				},
-				{
-					"id": "8de84da9-f8aa-47f5-acc1-bad2d3860c5d",
-					"name": "Unexpected error",
-					"originalRequest": {
-						"method": "GET",
-						"header": [
-							{
-								"description": "Added as a part of security scheme: apikey",
-								"key": "X-Api-Key",
-								"value": "<API Key>"
-							},
-							{
-								"description": "(Required) your API key",
-								"key": "fwrzofiroi",
-								"value": "<string>"
-							},
-							{
-								"description": "(Required) your API key",
-								"key": "Update",
-								"value": "<string>"
-							},
-							{
-								"description": "(Required) your API key",
-								"key": "abcheader",
-								"value": "<string>"
-							}
-						],
-						"url": {
-							"raw": "{{baseUrl}}/space/?cdf=<string>",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"space",
-								""
-							],
-							"query": [
-								{
-									"key": "cdf",
-									"value": "<string>"
-								}
-							]
-						}
-					},
-					"status": "Internal Server Error",
-					"code": 500,
-					"_postman_previewlanguage": "Text",
-					"header": [
-						{
-							"key": "Content-Type",
-							"value": "application/json"
-						}
-					],
-					"cookie": [],
-					"body": "{\n  \"message\": \"mollit sit dolore elit ad\"\n}"
+					"body": "{\n  \"message\": \"nisi\"\n}"
 				}
 			]
 		},
 		{
-			"name": "POST aaaa spacecraft hsssere again now now",
-			"id": "23db3582-074a-48c3-9239-afc96fac2bf3",
+			"name": "POST aaaa spacecraft hsssere again now",
+			"id": "904cc353-4b3e-4966-8af0-188d41b904cc",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -531,7 +307,7 @@
 			},
 			"response": [
 				{
-					"id": "209a5b97-e764-4705-aab9-788468db0c6d",
+					"id": "114ba4f0-1d5c-4099-9bad-1b56b2657cf0",
 					"name": "These spacecraft corresponding to the provided `spacecraftId`",
 					"originalRequest": {
 						"method": "POST",
@@ -563,10 +339,10 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n  \"id\": \"sint occaecat voluptate\",\n  \"name\": -69727084.43024631,\n  \"type\": \"capsule\",\n  \"description\": -10189082.682101741\n}"
+					"body": "{\n  \"id\": \"irure est amet elit\",\n  \"name\": 86602055.04379609,\n  \"type\": \"probe\",\n  \"description\": 49573111.64992538\n}"
 				},
 				{
-					"id": "965310e3-2d5c-46e8-88d7-2190f971eee3",
+					"id": "e946ffb6-b1f0-4212-87b3-3ba429781ce3",
 					"name": "These spacecraft corresponding to the ssss provided `spacecraftId`",
 					"originalRequest": {
 						"method": "POST",
@@ -598,252 +374,14 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n  \"id\": \"sint occaecat voluptate\",\n  \"name\": -69727084.43024631,\n  \"type\": \"capsule\",\n  \"description\": -10189082.682101741\n}"
-				},
-				{
-					"id": "209a5b97-e764-4705-aab9-788468db0c6d",
-					"name": "These spacecraft corresponding to the provided `spacecraftId`",
-					"originalRequest": {
-						"method": "POST",
-						"header": [
-							{
-								"description": "Added as a part of security scheme: apikey",
-								"key": "X-Api-Key",
-								"value": "<API Key>"
-							}
-						],
-						"url": {
-							"raw": "{{baseUrl}}/space/",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"space",
-								""
-							]
-						}
-					},
-					"status": "OK",
-					"code": 200,
-					"_postman_previewlanguage": "Text",
-					"header": [
-						{
-							"key": "Content-Type",
-							"value": "application/json"
-						}
-					],
-					"cookie": [],
-					"body": "{\n  \"id\": \"sint occaecat voluptate\",\n  \"name\": -69727084.43024631,\n  \"type\": \"capsule\",\n  \"description\": -10189082.682101741\n}"
-				},
-				{
-					"id": "965310e3-2d5c-46e8-88d7-2190f971eee3",
-					"name": "These spacecraft corresponding to the ssss provided `spacecraftId`",
-					"originalRequest": {
-						"method": "POST",
-						"header": [
-							{
-								"description": "Added as a part of security scheme: apikey",
-								"key": "X-Api-Key",
-								"value": "<API Key>"
-							}
-						],
-						"url": {
-							"raw": "{{baseUrl}}/space/",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"space",
-								""
-							]
-						}
-					},
-					"status": "Created",
-					"code": 201,
-					"_postman_previewlanguage": "Text",
-					"header": [
-						{
-							"key": "Content-Type",
-							"value": "application/json"
-						}
-					],
-					"cookie": [],
-					"body": "{\n  \"id\": \"sint occaecat voluptate\",\n  \"name\": -69727084.43024631,\n  \"type\": \"capsule\",\n  \"description\": -10189082.682101741\n}"
-				}
-			]
-		},
-		{
-			"name": "POST aaaa spacecraft hsssere again now now",
-			"id": "025c086b-7146-4327-9219-c72a6ab7bf1a",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "DELETE",
-				"header": [
-					{
-						"key": "Accept",
-						"value": "application/json"
-					}
-				],
-				"url": {
-					"raw": "{{baseUrl}}/space/",
-					"host": [
-						"{{baseUrl}}"
-					],
-					"path": [
-						"space",
-						""
-					]
-				}
-			},
-			"response": [
-				{
-					"id": "51b5b4b6-e497-4c77-81e1-09392133c309",
-					"name": "These spacecraft corresponding to the provided `spacecraftId`",
-					"originalRequest": {
-						"method": "DELETE",
-						"header": [
-							{
-								"description": "Added as a part of security scheme: apikey",
-								"key": "X-Api-Key",
-								"value": "<API Key>"
-							}
-						],
-						"url": {
-							"raw": "{{baseUrl}}/space/",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"space",
-								""
-							]
-						}
-					},
-					"status": "OK",
-					"code": 200,
-					"_postman_previewlanguage": "Text",
-					"header": [
-						{
-							"key": "Content-Type",
-							"value": "application/json"
-						}
-					],
-					"cookie": [],
-					"body": "{\n  \"id\": \"sint occaecat voluptate\",\n  \"name\": -69727084.43024631,\n  \"type\": \"capsule\",\n  \"description\": -10189082.682101741\n}"
-				},
-				{
-					"id": "2dc5242b-38ce-471b-83e3-5fc32ef1724d",
-					"name": "These spacecraft corresponding to the ssss provided `spacecraftId`",
-					"originalRequest": {
-						"method": "DELETE",
-						"header": [
-							{
-								"description": "Added as a part of security scheme: apikey",
-								"key": "X-Api-Key",
-								"value": "<API Key>"
-							}
-						],
-						"url": {
-							"raw": "{{baseUrl}}/space/",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"space",
-								""
-							]
-						}
-					},
-					"status": "Created",
-					"code": 201,
-					"_postman_previewlanguage": "Text",
-					"header": [
-						{
-							"key": "Content-Type",
-							"value": "application/json"
-						}
-					],
-					"cookie": [],
-					"body": "{\n  \"id\": \"sint occaecat voluptate\",\n  \"name\": -69727084.43024631,\n  \"type\": \"capsule\",\n  \"description\": -10189082.682101741\n}"
-				},
-				{
-					"id": "51b5b4b6-e497-4c77-81e1-09392133c309",
-					"name": "These spacecraft corresponding to the provided `spacecraftId`",
-					"originalRequest": {
-						"method": "DELETE",
-						"header": [
-							{
-								"description": "Added as a part of security scheme: apikey",
-								"key": "X-Api-Key",
-								"value": "<API Key>"
-							}
-						],
-						"url": {
-							"raw": "{{baseUrl}}/space/",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"space",
-								""
-							]
-						}
-					},
-					"status": "OK",
-					"code": 200,
-					"_postman_previewlanguage": "Text",
-					"header": [
-						{
-							"key": "Content-Type",
-							"value": "application/json"
-						}
-					],
-					"cookie": [],
-					"body": "{\n  \"id\": \"sint occaecat voluptate\",\n  \"name\": -69727084.43024631,\n  \"type\": \"capsule\",\n  \"description\": -10189082.682101741\n}"
-				},
-				{
-					"id": "2dc5242b-38ce-471b-83e3-5fc32ef1724d",
-					"name": "These spacecraft corresponding to the ssss provided `spacecraftId`",
-					"originalRequest": {
-						"method": "DELETE",
-						"header": [
-							{
-								"description": "Added as a part of security scheme: apikey",
-								"key": "X-Api-Key",
-								"value": "<API Key>"
-							}
-						],
-						"url": {
-							"raw": "{{baseUrl}}/space/",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"space",
-								""
-							]
-						}
-					},
-					"status": "Created",
-					"code": 201,
-					"_postman_previewlanguage": "Text",
-					"header": [
-						{
-							"key": "Content-Type",
-							"value": "application/json"
-						}
-					],
-					"cookie": [],
-					"body": "{\n  \"id\": \"sint occaecat voluptate\",\n  \"name\": -69727084.43024631,\n  \"type\": \"capsule\",\n  \"description\": -10189082.682101741\n}"
+					"body": "{\n  \"id\": \"cillum exercitation ex\",\n  \"name\": 11716011.254155084,\n  \"type\": \"probe\",\n  \"description\": 7673045.513642937\n}"
 				}
 			]
 		}
 	],
 	"variable": [
 		{
-			"id": "79accf39-668c-47c9-a5f2-b6699b72f7ff",
+			"id": "78994100-b904-4470-b69f-e46e72ae1bac",
 			"key": "baseUrl",
 			"value": "/",
 			"type": "string"
