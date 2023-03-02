@@ -61,6 +61,62 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/Error'
+    post:
+      parameters:
+      - name: fwrzofiroi
+        in: header
+        description: your API key
+        required: true
+        explode: false
+        schema:
+          type: string
+      - name: Update
+        in: header
+        description: your API key
+        required: true
+        explode: false
+        schema:
+          type: string
+      - name: abcheader
+        in: header
+        description: your API key
+        required: true
+        explode: false
+        schema:
+          type: string
+      - name: cdf
+        in: query
+        description: your API key
+        required: true
+        explode: false
+        schema:
+          type: string
+      summary: wrgreget
+      responses:
+        '200': 
+          description: These spacecraft corresponding to the provided `spacecraftId`
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Spacecraft'
+        '201':
+          description: These spacecraft corresponding to the ssss provided `spacecraftId`
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Spacecraft'
+        404:
+          description: No spacecraft found for the provided `spacecraftId`
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        500:
+          description: Unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
 components:
   schemas:
     SpacecraftId:
