@@ -35,7 +35,7 @@ paths:
         explode: false
         schema:
           type: string
-      summary: Update okay
+      summary: wrgreget
       responses:
         '200': 
           description: These spacecraft corresponding to the provided `spacecraftId`
