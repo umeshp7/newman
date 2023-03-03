@@ -1,0 +1,547 @@
+{
+	"info": {
+		"_postman_id": "e36220ac-2440-4cab-90a5-ccacec512397",
+		"name": "wrgrewg",
+		"description": "gwr oeifjwrifj",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "466628-e36220ac-2440-4cab-90a5-ccacec512397"
+	},
+	"item": [
+		{
+			"name": "update again",
+			"id": "3f1f7d4c-49dc-4d66-8f3c-61f2dfc926cf",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"description": "(Required) your API key",
+						"key": "fwrzofiroi",
+						"value": "amet laborum ad Excepteur Duis"
+					},
+					{
+						"description": "(Required) your API key",
+						"key": "Update",
+						"value": "amet laborum ad Excepteur Duis"
+					},
+					{
+						"description": "(Required) your API key",
+						"key": "abcheader",
+						"value": "amet laborum ad Excepteur Duis"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/space/?cdf=amet laborum ad Excepteur Duis",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"space",
+						""
+					],
+					"query": [
+						{
+							"description": "(Required) your API key",
+							"key": "cdf",
+							"value": "amet laborum ad Excepteur Duis"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "8cc9a688-3407-4b43-9bc8-88cc82e827cb",
+					"name": "These spacecraft corresponding to the provided `spacecraftId`",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) your API key",
+								"key": "fwrzofiroi",
+								"value": "amet laborum ad Excepteur Duis"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "Update",
+								"value": "amet laborum ad Excepteur Duis"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "abcheader",
+								"value": "amet laborum ad Excepteur Duis"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=amet laborum ad Excepteur Duis",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"description": "(Required) your API key",
+									"key": "cdf",
+									"value": "amet laborum ad Excepteur Duis"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"ex do incididunt voluptate\",\n  \"name\": -15264459.707086787,\n  \"type\": \"station\",\n  \"description\": 21575632.77559094\n}"
+				},
+				{
+					"id": "a9b010be-87b8-4b8c-87f1-878d1bf14867",
+					"name": "These spacecraft corresponding to the ssss provided `spacecraftId`",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) your API key",
+								"key": "fwrzofiroi",
+								"value": "amet laborum ad Excepteur Duis"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "Update",
+								"value": "amet laborum ad Excepteur Duis"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "abcheader",
+								"value": "amet laborum ad Excepteur Duis"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=amet laborum ad Excepteur Duis",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"description": "(Required) your API key",
+									"key": "cdf",
+									"value": "amet laborum ad Excepteur Duis"
+								}
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"ex do incididunt voluptate\",\n  \"name\": -15264459.707086787,\n  \"type\": \"station\",\n  \"description\": 21575632.77559094\n}"
+				},
+				{
+					"id": "2c761820-d155-4137-9a0d-b2696bd42a65",
+					"name": "No spacecraft found for the provided `spacecraftId`",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) your API key",
+								"key": "fwrzofiroi",
+								"value": "amet laborum ad Excepteur Duis"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "Update",
+								"value": "amet laborum ad Excepteur Duis"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "abcheader",
+								"value": "amet laborum ad Excepteur Duis"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=amet laborum ad Excepteur Duis",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"description": "(Required) your API key",
+									"key": "cdf",
+									"value": "amet laborum ad Excepteur Duis"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"message\": \"sed conseq\"\n}"
+				},
+				{
+					"id": "4d3eefbf-9fea-469d-8e1a-9aeba1fcb6c0",
+					"name": "Unexpected error",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) your API key",
+								"key": "fwrzofiroi",
+								"value": "amet laborum ad Excepteur Duis"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "Update",
+								"value": "amet laborum ad Excepteur Duis"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "abcheader",
+								"value": "amet laborum ad Excepteur Duis"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=amet laborum ad Excepteur Duis",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"description": "(Required) your API key",
+									"key": "cdf",
+									"value": "amet laborum ad Excepteur Duis"
+								}
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"message\": \"sed conseq\"\n}"
+				}
+			]
+		},
+		{
+			"name": "wrgreget",
+			"id": "38c275f4-ee5e-4f25-aa95-2fca30f7c5de",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"description": "(Required) your API key",
+						"key": "fwrzofiroi",
+						"value": "amet laborum ad Excepteur Duis"
+					},
+					{
+						"description": "(Required) your API key",
+						"key": "Update",
+						"value": "amet laborum ad Excepteur Duis"
+					},
+					{
+						"description": "(Required) your API key",
+						"key": "abcheader",
+						"value": "amet laborum ad Excepteur Duis"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/space/?cdf=amet laborum ad Excepteur Duis",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"space",
+						""
+					],
+					"query": [
+						{
+							"description": "(Required) your API key",
+							"key": "cdf",
+							"value": "amet laborum ad Excepteur Duis"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "838c63b5-2f7d-46fa-b1d2-91a9ec6aaa39",
+					"name": "These spacecraft corresponding to the provided `spacecraftId`",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"description": "(Required) your API key",
+								"key": "fwrzofiroi",
+								"value": "amet laborum ad Excepteur Duis"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "Update",
+								"value": "amet laborum ad Excepteur Duis"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "abcheader",
+								"value": "amet laborum ad Excepteur Duis"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=amet laborum ad Excepteur Duis",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"description": "(Required) your API key",
+									"key": "cdf",
+									"value": "amet laborum ad Excepteur Duis"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"ex do incididunt voluptate\",\n  \"name\": -15264459.707086787,\n  \"type\": \"station\",\n  \"description\": 21575632.77559094\n}"
+				},
+				{
+					"id": "84870dc9-a431-4931-a57e-cf2cad1d070c",
+					"name": "RANDOM NAME`",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"description": "(Required) your API key",
+								"key": "fwrzofiroi",
+								"value": "amet laborum ad Excepteur Duis"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "Update",
+								"value": "amet laborum ad Excepteur Duis"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "abcheader",
+								"value": "amet laborum ad Excepteur Duis"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=amet laborum ad Excepteur Duis",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"description": "(Required) your API key",
+									"key": "cdf",
+									"value": "amet laborum ad Excepteur Duis"
+								}
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"ex do incididunt voluptate\",\n  \"name\": -15264459.707086787,\n  \"type\": \"station\",\n  \"description\": 21575632.77559094\n}"
+				},
+				{
+					"id": "bbef8661-c19e-4e3c-8a24-958f86ee9e1d",
+					"name": "RANDOM NAME`",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"description": "(Required) your API key",
+								"key": "fwrzofiroi",
+								"value": "amet laborum ad Excepteur Duis"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "Update",
+								"value": "amet laborum ad Excepteur Duis"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "abcheader",
+								"value": "amet laborum ad Excepteur Duis"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=amet laborum ad Excepteur Duis",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"description": "(Required) your API key",
+									"key": "cdf",
+									"value": "amet laborum ad Excepteur Duis"
+								}
+							]
+						}
+					},
+					"status": "Non-Authoritative Information (since HTTP/1.1)",
+					"code": 203,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"ex do incididunt voluptate\",\n  \"name\": -15264459.707086787,\n  \"type\": \"station\",\n  \"description\": 21575632.77559094\n}"
+				},
+				{
+					"id": "ff9a7654-1a56-4124-afb5-629d5304db5e",
+					"name": "Appears new`",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"description": "(Required) your API key",
+								"key": "fwrzofiroi",
+								"value": "amet laborum ad Excepteur Duis"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "Update",
+								"value": "amet laborum ad Excepteur Duis"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "abcheader",
+								"value": "amet laborum ad Excepteur Duis"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=amet laborum ad Excepteur Duis",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"description": "(Required) your API key",
+									"key": "cdf",
+									"value": "amet laborum ad Excepteur Duis"
+								}
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"ex do incididunt voluptate\",\n  \"name\": -15264459.707086787,\n  \"type\": \"station\",\n  \"description\": 21575632.77559094\n}"
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "key",
+				"value": "X-Api-Key",
+				"type": "string"
+			},
+			{
+				"key": "value",
+				"value": "{{apiKey}}",
+				"type": "string"
+			},
+			{
+				"key": "in",
+				"value": "header",
+				"type": "string"
+			}
+		]
+	},
+	"variable": [
+		{
+			"id": "bddd4ab8-0282-4a7b-89e8-cf33fa7a85c4",
+			"key": "baseUrl",
+			"value": "/",
+			"type": "any"
+		}
+	]
+}
