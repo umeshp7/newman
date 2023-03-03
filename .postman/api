@@ -7,7 +7,7 @@ id = eafaa6a2-29cd-46c4-b734-9095df17f686
 rootDirectory = postman/collections
 files[] = {"id":"466628-9fa64270-7962-433a-808c-a1f774abeb96","path":"From pull changes BLANK.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
 files[] = {"id":"466628-771cac5f-e527-427c-9a4a-1f9b256dac93","path":"From pull changes GENERATED.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
-files[] = {"id":"466628-feec9c91-924c-43d1-b964-22c2ff527ba2","path":"New Collection.json","metaData":{}}
+files[] = {"id":"466628-feec9c91-924c-43d1-b964-22c2ff527ba2","path":"New Collection.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":false}"}}
 files[] = {"id":"466628-3454decc-db74-473d-83c0-42efb6daf677","path":"Not in remote blank.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
 files[] = {"id":"466628-db3b76eb-560b-4f92-a98e-a10c3073a0d5","path":"Not in remote.json","metaData":{"generateCollectionPreferences":"{\"requestNameSource\":\"Fallback\",\"indentCharacter\":\"Space\",\"collapseFolders\":true,\"optimizeConversion\":true,\"requestParametersResolution\":\"Example\",\"exampleParametersResolution\":\"Schema\",\"folderStrategy\":\"Paths\",\"includeAuthInfoInExample\":true,\"enableOptionalParameters\":true,\"keepImplicitHeaders\":false,\"includeDeprecated\":true,\"updateCollectionSync\":true}"}}
 
@@ -16,9 +16,7 @@ files[] = {"id":"466628-db3b76eb-560b-4f92-a98e-a10c3073a0d5","path":"Not in rem
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
-files[] = {"path":"Awesome.json","metaData":{}}
 files[] = {"path":"index.json","metaData":{}}
-files[] = {"path":"New.yaml","metaData":{}}
 
 [relations.apiDefinition.metaData]
 type = openapi:3
