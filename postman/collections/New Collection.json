@@ -1,0 +1,504 @@
+{
+	"info": {
+		"_postman_id": "b536782d-340b-411b-9b95-b93bf228380c",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "466628-b536782d-340b-411b-9b95-b93bf228380c"
+	},
+	"item": [
+		{
+			"name": "New",
+			"id": "ac9b6ece-160e-4c0c-acc4-f8b7e816d885",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"description": "(Required) your API key",
+						"key": "fwrzofiroi",
+						"value": "sint"
+					},
+					{
+						"description": "(Required) your API key",
+						"key": "Update",
+						"value": "sint"
+					},
+					{
+						"description": "(Required) your API key",
+						"key": "abcheader",
+						"value": "sint"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/space/?cdf=sint",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"space",
+						""
+					],
+					"query": [
+						{
+							"description": "(Required) your API key",
+							"key": "cdf",
+							"value": "sint"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "97288083-0fae-4d2b-8db1-6187ab43224c",
+					"name": "Update spacecraft corresponding to the provided `spacecraftId`",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) your API key",
+								"key": "fwrzofiroi",
+								"value": "sint"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "Update",
+								"value": "sint"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "abcheader",
+								"value": "sint"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=sint",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"description": "(Required) your API key",
+									"key": "cdf",
+									"value": "sint"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"ex dolor laborum eu\",\n  \"name\": 10866024.296304211,\n  \"type\": \"spaceplane\",\n  \"description\": -29196712.531889364\n}"
+				},
+				{
+					"id": "f39ce9a8-eb60-482f-8e6c-5b04a0b039d3",
+					"name": "These spacecraft corresponding to the provided `spacecraftId`",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) your API key",
+								"key": "fwrzofiroi",
+								"value": "sint"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "Update",
+								"value": "sint"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "abcheader",
+								"value": "sint"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=sint",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"description": "(Required) your API key",
+									"key": "cdf",
+									"value": "sint"
+								}
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"ex dolor laborum eu\",\n  \"name\": 10866024.296304211,\n  \"type\": \"spaceplane\",\n  \"description\": -29196712.531889364\n}"
+				},
+				{
+					"id": "628aaecf-26bc-4466-841f-2b316da32151",
+					"name": "These spacecraft corresponding to the provided `spacecraftId`",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) your API key",
+								"key": "fwrzofiroi",
+								"value": "sint"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "Update",
+								"value": "sint"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "abcheader",
+								"value": "sint"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=sint",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"description": "(Required) your API key",
+									"key": "cdf",
+									"value": "sint"
+								}
+							]
+						}
+					},
+					"status": "HTTP Version Not Supported",
+					"code": 505,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"ex dolor laborum eu\",\n  \"name\": 10866024.296304211,\n  \"type\": \"spaceplane\",\n  \"description\": -29196712.531889364\n}"
+				}
+			]
+		},
+		{
+			"name": "New update",
+			"id": "94d41c75-4ce2-4364-b72c-877c1f7248e3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"description": "(Required) your API key",
+						"key": "fwrzofiroi",
+						"value": "sint"
+					},
+					{
+						"description": "(Required) your API key",
+						"key": "Update",
+						"value": "sint"
+					},
+					{
+						"description": "(Required) your API key",
+						"key": "abcheader",
+						"value": "sint"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/space/?cdf=sint",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"space",
+						""
+					],
+					"query": [
+						{
+							"description": "(Required) your API key",
+							"key": "cdf",
+							"value": "sint"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "17d90ff9-c1e1-4815-bc2e-2739d55f70ac",
+					"name": "Update spacecraft corresponding to the provided `spacecraftId`",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"description": "(Required) your API key",
+								"key": "fwrzofiroi",
+								"value": "sint"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "Update",
+								"value": "sint"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "abcheader",
+								"value": "sint"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=sint",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"description": "(Required) your API key",
+									"key": "cdf",
+									"value": "sint"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"ex dolor laborum eu\",\n  \"name\": 10866024.296304211,\n  \"type\": \"spaceplane\",\n  \"description\": -29196712.531889364\n}"
+				},
+				{
+					"id": "539f8804-b8cd-4f24-a930-09987332b6e4",
+					"name": "These spacecraft corresponding to the provided `spacecraftId`",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"description": "(Required) your API key",
+								"key": "fwrzofiroi",
+								"value": "sint"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "Update",
+								"value": "sint"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "abcheader",
+								"value": "sint"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=sint",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"description": "(Required) your API key",
+									"key": "cdf",
+									"value": "sint"
+								}
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"ex dolor laborum eu\",\n  \"name\": 10866024.296304211,\n  \"type\": \"spaceplane\",\n  \"description\": -29196712.531889364\n}"
+				}
+			]
+		},
+		{
+			"name": "New update",
+			"id": "4ff4fe97-6f2e-43a0-af8b-a03a7cb80eaa",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"description": "(Required) your API key",
+						"key": "fwrzofiroi",
+						"value": "sint"
+					},
+					{
+						"description": "(Required) your API key",
+						"key": "Update",
+						"value": "sint"
+					},
+					{
+						"description": "(Required) your API key",
+						"key": "abcheader",
+						"value": "sint"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/space/?cdf=sint",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"space",
+						""
+					],
+					"query": [
+						{
+							"description": "(Required) your API key",
+							"key": "cdf",
+							"value": "sint"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "3acd0f9f-f922-47df-84d3-27951e6f7d1a",
+					"name": "Update spacecraft corresponding to the provided `spacecraftId`",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"description": "(Required) your API key",
+								"key": "fwrzofiroi",
+								"value": "sint"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "Update",
+								"value": "sint"
+							},
+							{
+								"description": "(Required) your API key",
+								"key": "abcheader",
+								"value": "sint"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=sint",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"description": "(Required) your API key",
+									"key": "cdf",
+									"value": "sint"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"ex dolor laborum eu\",\n  \"name\": 10866024.296304211,\n  \"type\": \"spaceplane\",\n  \"description\": -29196712.531889364\n}"
+				},
+				{
+					"id": "eb027a51-f92f-4218-b668-63350f188fbf",
+					"name": "Update spacecraft corresponding to the provided `spacecraftId`",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=sint",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"description": "(Required) your API key",
+									"key": "cdf",
+									"value": "sint"
+								}
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"nisi ut ex\",\n  \"name\": -33441540.446932152,\n  \"type\": \"capsule\",\n  \"description\": -23710434.716937765\n}"
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"id": "17fe691d-6a29-44af-9b9e-05a303dc5107",
+			"key": "baseUrl",
+			"value": "/",
+			"type": "string"
+		}
+	]
+}
