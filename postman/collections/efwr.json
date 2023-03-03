@@ -417,6 +417,42 @@
 					],
 					"cookie": [],
 					"body": "{\n  \"id\": \"ea Lorem incididunt veniam\",\n  \"name\": 83352760.27388701,\n  \"type\": \"station\",\n  \"description\": -81222123.15058093\n}"
+				},
+				{
+					"id": "6f6c636e-d73f-488d-b963-16344da9e4f6",
+					"name": "RANDOM NAME`",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=Duis dolor cupidatat sed",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"description": "(Required) your API key",
+									"key": "cdf",
+									"value": "Duis dolor cupidatat sed"
+								}
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"ea Lorem incididunt veniam\",\n  \"name\": 83352760.27388701,\n  \"type\": \"station\",\n  \"description\": -81222123.15058093\n}"
 				}
 			]
 		}
