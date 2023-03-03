@@ -8,7 +8,7 @@
 	},
 	"item": [
 		{
-			"name": "Again THIS",
+			"name": "New update check",
 			"id": "db7d1d5e-a2fe-4cd7-b502-63a94eb9fb70",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -51,58 +51,6 @@
 				}
 			},
 			"response": [
-				{
-					"id": "5728a1c3-c928-4002-84d5-d1f06591a42b",
-					"name": "wrfwr",
-					"originalRequest": {
-						"method": "GET",
-						"header": [
-							{
-								"description": "(Required) your API key",
-								"key": "fwrzofiroi",
-								"value": "aliquip aliqua sed cillum culpa"
-							},
-							{
-								"description": "(Required) your API key",
-								"key": "Update",
-								"value": "aliquip aliqua sed cillum culpa"
-							},
-							{
-								"description": "(Required) your API key",
-								"key": "abcheader",
-								"value": "aliquip aliqua sed cillum culpa"
-							}
-						],
-						"url": {
-							"raw": "{{baseUrl}}/space/?cdf=aliquip aliqua sed cillum culpa",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"space",
-								""
-							],
-							"query": [
-								{
-									"description": "(Required) your API key",
-									"key": "cdf",
-									"value": "aliquip aliqua sed cillum culpa"
-								}
-							]
-						}
-					},
-					"status": "OK",
-					"code": 200,
-					"_postman_previewlanguage": "Text",
-					"header": [
-						{
-							"key": "Content-Type",
-							"value": "application/json"
-						}
-					],
-					"cookie": [],
-					"body": "{\n  \"id\": \"ad ut aute conse\",\n  \"name\": 67210606.90947485,\n  \"type\": \"capsule\",\n  \"description\": 80464039.11477241\n}"
-				},
 				{
 					"id": "1417d55f-a79d-46d5-9fbb-2a428fc8579e",
 					"name": "These spacecraft corresponding to the provided `spacecraftId`",

@@ -35,10 +35,10 @@ paths:
         explode: false
         schema:
           type: string
-      summary: Again THIS
+      summary: New update check
       responses:
         '200': 
-          description: These spacecraft corresponding to the provided `spacecraftId`
+          description: Update spacecraft corresponding to the provided `spacecraftId`
           content:
             application/json:
               schema:
