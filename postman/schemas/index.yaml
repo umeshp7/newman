@@ -99,24 +99,24 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/Spacecraft'
-        '201':
-          description: These spacecraft corresponding to the ssss provided `spacecraftId`
+        '500':
+          description: Appears new`
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/Spacecraft'
-        404:
-          description: No spacecraft found for the provided `spacecraftId`
+        '201':
+          description: RANDOM NAME`
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Error'
-        500:
-          description: Unexpected error
+                $ref: '#/components/schemas/Spacecraft'
+        '203':
+          description: RANDOM NAME`
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Error'
+                $ref: '#/components/schemas/Spacecraft'
 components:
   schemas:
     SpacecraftId:

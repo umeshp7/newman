@@ -238,22 +238,45 @@
 			]
 		},
 		{
-			"name": "POST aaaa spacecraft hsssere again now",
+			"name": "wrgreget",
 			"id": "84da84f3-dec0-4397-943d-aa960aff80cc",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "POST",
-				"header": [],
+				"header": [
+					{
+						"description": "(Required) your API key",
+						"key": "fwrzofiroi",
+						"value": "Ut aliqua"
+					},
+					{
+						"description": "(Required) your API key",
+						"key": "Update",
+						"value": "fugiat non"
+					},
+					{
+						"description": "(Required) your API key",
+						"key": "abcheader",
+						"value": "labore"
+					}
+				],
 				"url": {
-					"raw": "{{baseUrl}}/space/",
+					"raw": "{{baseUrl}}/space/?cdf=ullamco dolor sunt",
 					"host": [
 						"{{baseUrl}}"
 					],
 					"path": [
 						"space",
 						""
+					],
+					"query": [
+						{
+							"description": "(Required) your API key",
+							"key": "cdf",
+							"value": "ullamco dolor sunt"
+						}
 					]
 				}
 			},
@@ -288,19 +311,62 @@
 					"body": "{\n  \"id\": \"proident nisi laboris nostrud do\",\n  \"name\": 89967755.21645483,\n  \"type\": \"station\",\n  \"description\": -41746622.06844064\n}"
 				},
 				{
-					"id": "51abc3ad-d4f3-413b-b3c5-a35a731ec04d",
-					"name": "These spacecraft corresponding to the ssss provided `spacecraftId`",
+					"id": "fab60c42-59fe-4f13-9856-286509768037",
+					"name": "Appears new`",
 					"originalRequest": {
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "{{baseUrl}}/space/",
+							"raw": "{{baseUrl}}/space/?cdf=ullamco dolor sunt",
 							"host": [
 								"{{baseUrl}}"
 							],
 							"path": [
 								"space",
 								""
+							],
+							"query": [
+								{
+									"description": "(Required) your API key",
+									"key": "cdf",
+									"value": "ullamco dolor sunt"
+								}
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"esse ad veniam\",\n  \"name\": 54940974.55144811,\n  \"type\": \"satellite\",\n  \"description\": -37943140.98722866\n}"
+				},
+				{
+					"id": "754b5933-f766-47db-b68f-6e33466e3be8",
+					"name": "RANDOM NAME`",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=ullamco dolor sunt",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"description": "(Required) your API key",
+									"key": "cdf",
+									"value": "ullamco dolor sunt"
+								}
 							]
 						}
 					},
@@ -314,7 +380,43 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n  \"id\": \"proident nisi laboris nostrud do\",\n  \"name\": 89967755.21645483,\n  \"type\": \"station\",\n  \"description\": -41746622.06844064\n}"
+					"body": "{\n  \"id\": \"ullamco in id velit\",\n  \"name\": -62070755.37373767,\n  \"type\": \"capsule\",\n  \"description\": -56233949.235002354\n}"
+				},
+				{
+					"id": "6fcf9805-e0ee-48e0-88ea-42b27bd24313",
+					"name": "RANDOM NAME`",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/space/?cdf=ullamco dolor sunt",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"space",
+								""
+							],
+							"query": [
+								{
+									"description": "(Required) your API key",
+									"key": "cdf",
+									"value": "ullamco dolor sunt"
+								}
+							]
+						}
+					},
+					"status": "Non-Authoritative Information (since HTTP/1.1)",
+					"code": 203,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"in irure laborum sed\",\n  \"name\": 49482954.750103,\n  \"type\": \"station\",\n  \"description\": 24952866.93750596\n}"
 				}
 			]
 		}
