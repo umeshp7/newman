@@ -5,13 +5,10 @@ id = 91c00eeb-2cef-4fab-8f9e-b9ce7542edc8
 
 [relations.collections]
 rootDirectory = postman/collections
-files[] = {"id":"466628-1336a67c-2dcb-4abe-bd9c-cbdb46056e0b","path":"disabled.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
-files[] = {"id":"466628-456517aa-8578-4944-8af6-d480f82295ab","path":"Enabled.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
-files[] = {"id":"466628-7f7f1458-2877-4e1a-9e99-388afbbee8bf","path":"From pull changes BLANK.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
-files[] = {"id":"466628-402f7300-19ea-4e87-b784-e886f2e50783","path":"From pull changes GENERATED.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
-files[] = {"id":"466628-aedc6a47-c645-4c1d-bf2c-28fe220c41ca","path":"New Collection.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
-files[] = {"id":"466628-138cdd15-8876-4b7f-aded-f50188f5382d","path":"Not in remote blank.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
-files[] = {"id":"466628-a98f42ae-1885-4e08-b4da-91850fa60620","path":"Not in remote.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
+files[] = {"id":"466628-808b40b4-ce5f-4d34-8837-08010086c8f8","path":"Generate.json","metaData":{"generateCollectionPreferences":"{\"requestNameSource\":\"Fallback\",\"indentCharacter\":\"Space\",\"collapseFolders\":true,\"optimizeConversion\":true,\"requestParametersResolution\":\"Example\",\"exampleParametersResolution\":\"Schema\",\"folderStrategy\":\"Paths\",\"includeAuthInfoInExample\":true,\"enableOptionalParameters\":true,\"keepImplicitHeaders\":false,\"includeDeprecated\":true,\"updateCollectionSync\":true}"}}
+files[] = {"id":"466628-243add3b-80b5-4a97-bb80-b7781508695c","path":"New Collection(1).json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
+files[] = {"id":"466628-e4a8302d-149e-4dd6-85de-1d8bcb28790e","path":"New Collection(2).json","metaData":{}}
+files[] = {"id":"466628-c0cf4804-dd4b-457b-acec-18034f0d6993","path":"New Collection.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
 
 [relations.collections.metaData]
 
@@ -20,5 +17,5 @@ rootDirectory = postman/schemas
 files[] = {"path":"index.json","metaData":{}}
 
 [relations.apiDefinition.metaData]
-type = openapi:3
 rootFiles[] = index.json
+type = openapi:3
