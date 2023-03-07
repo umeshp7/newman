@@ -14,7 +14,7 @@
 					"name": "{spacecraftId}",
 					"item": [
 						{
-							"name": "Read a awsome",
+							"name": "Read a awsome new name",
 							"id": "1a3ec257-3437-4989-827c-4f239ca25b29",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -107,6 +107,40 @@
 									],
 									"cookie": [],
 									"body": "{\n  \"message\": \"sit est\"\n}"
+								},
+								{
+									"id": "0b691173-c7d7-4e91-994a-1c34cf601755",
+									"name": "The spacecraft corresponding to the provided `spacecraftId`",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/spacecrafts/:spacecraftId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"spacecrafts",
+												":spacecraftId"
+											],
+											"variable": [
+												{
+													"key": "spacecraftId"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "Text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"id\": \"veniam deserunt d\",\n  \"name\": \"officia mollit\",\n  \"type\": \"capsule\",\n  \"description\": \"cillum reprehenderit\"\n}"
 								}
 							]
 						}
@@ -117,7 +151,7 @@
 			"id": "36b24389-36fe-4246-9ac7-b4d57d0307ca"
 		},
 		{
-			"name": "Create a spacecraft awsome",
+			"name": "Create a spacecraft update",
 			"id": "bc7d6b95-38c0-40b4-bac7-20b40081ba28",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -178,40 +212,6 @@
 					"body": "{\n  \"id\": \"aliquip et paria\",\n  \"name\": \"est\",\n  \"type\": \"probe\",\n  \"description\": \"consectetur culpa aliquip\"\n}"
 				},
 				{
-					"id": "69baf975-84ed-47dd-83db-1522100637ca",
-					"name": "No spacecraft found for the provided `spacecraftId`",
-					"originalRequest": {
-						"method": "POST",
-						"header": [],
-						"url": {
-							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"spacecrafts",
-								":spacecraftId"
-							],
-							"variable": [
-								{
-									"key": "spacecraftId"
-								}
-							]
-						}
-					},
-					"status": "Not Found",
-					"code": 404,
-					"_postman_previewlanguage": "Text",
-					"header": [
-						{
-							"key": "Content-Type",
-							"value": "application/json"
-						}
-					],
-					"cookie": [],
-					"body": "{\n  \"message\": \"sit est\"\n}"
-				},
-				{
 					"id": "f16fdb19-ddd0-4cee-b515-59a998e83928",
 					"name": "Unexpected error",
 					"originalRequest": {
@@ -248,13 +248,13 @@
 			]
 		},
 		{
-			"name": "Update a spacecraft",
-			"id": "b1286e81-8cf3-430e-b528-594bbf638ee2",
+			"name": "Patch a spacecraft",
+			"id": "2294d24a-2ab7-4d53-ba58-66676a38a97c",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "PUT",
+				"method": "PATCH",
 				"header": [],
 				"url": {
 					"raw": "{{baseUrl}}/spacecrafts/:spacecraftId",
@@ -268,17 +268,17 @@
 					"variable": [
 						{
 							"key": "spacecraftId",
-							"value": "incid"
+							"value": "fugiat cillum qui reprehenderit"
 						}
 					]
 				}
 			},
 			"response": [
 				{
-					"id": "950220e0-f90e-4807-9bfc-032b411720eb",
+					"id": "ce2834ce-a080-4642-a848-9d8c09a66cb3",
 					"name": "The spacecraft corresponding to the provided `spacecraftId`",
 					"originalRequest": {
-						"method": "PUT",
+						"method": "PATCH",
 						"header": [],
 						"url": {
 							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId",
@@ -306,13 +306,13 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n  \"id\": \"aliquip et paria\",\n  \"name\": \"est\",\n  \"type\": \"probe\",\n  \"description\": \"consectetur culpa aliquip\"\n}"
+					"body": "{\n  \"id\": \"occaecat dolor\",\n  \"name\": \"dolor enim deserunt culpa\",\n  \"type\": \"probe\",\n  \"description\": \"laborum\"\n}"
 				},
 				{
-					"id": "adfa61c0-b3de-46b3-b99f-f3eec52dd032",
+					"id": "cd4f8092-2b93-4107-bd35-3443046fcd2e",
 					"name": "No spacecraft found for the provided `spacecraftId`",
 					"originalRequest": {
-						"method": "PUT",
+						"method": "PATCH",
 						"header": [],
 						"url": {
 							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId",
@@ -340,13 +340,13 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n  \"message\": \"sit est\"\n}"
+					"body": "{\n  \"message\": \"anim officia sed culpa Exce\"\n}"
 				},
 				{
-					"id": "7a82a8cd-0af9-44b0-8884-0ba09ed48859",
+					"id": "9fcee5c5-c2bd-4413-8f67-4d13458a9d81",
 					"name": "Unexpected error",
 					"originalRequest": {
-						"method": "PUT",
+						"method": "PATCH",
 						"header": [],
 						"url": {
 							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId",
@@ -374,7 +374,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n  \"message\": \"sit est\"\n}"
+					"body": "{\n  \"message\": \"anim officia sed culpa Exce\"\n}"
 				}
 			]
 		}

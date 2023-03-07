@@ -19,7 +19,7 @@
         }
       ],
       "get": {
-        "summary": "Read a awsome",
+        "summary": "Read a awsome new name",
         "responses": {
           "200": {
             "description": "The spacecraft corresponding to the provided `spacecraftId`",
@@ -54,7 +54,7 @@
         }
       },
       "post": {
-        "summary": "Create a spacecraft awsome",
+        "summary": "Create a spacecraft update",
         "responses": {
           "200": {
             "description": "The spacecraft corresponding to the provided `spacecraftId`",
@@ -62,16 +62,6 @@
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Spacecraft"
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "No spacecraft found for the provided `spacecraftId`",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
                 }
               }
             }
@@ -88,8 +78,8 @@
           }
         }
       },
-      "put": {
-        "summary": "Update a spacecraft",
+      "patch": {
+        "summary": "Patch a spacecraft",
         "responses": {
           "200": {
             "description": "The spacecraft corresponding to the provided `spacecraftId`",
