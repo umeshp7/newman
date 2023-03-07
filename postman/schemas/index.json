@@ -19,7 +19,77 @@
         }
       ],
       "get": {
-        "summary": "Read a spacecraft awsome",
+        "summary": "Read a awsome",
+        "responses": {
+          "200": {
+            "description": "The spacecraft corresponding to the provided `spacecraftId`",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Spacecraft"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No spacecraft found for the provided `spacecraftId`",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Create a spacecraft awsome",
+        "responses": {
+          "200": {
+            "description": "The spacecraft corresponding to the provided `spacecraftId`",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Spacecraft"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No spacecraft found for the provided `spacecraftId`",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "Update a spacecraft",
         "responses": {
           "200": {
             "description": "The spacecraft corresponding to the provided `spacecraftId`",

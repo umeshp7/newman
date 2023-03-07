@@ -6,11 +6,6 @@ id = 91c00eeb-2cef-4fab-8f9e-b9ce7542edc8
 [relations.collections]
 rootDirectory = postman/collections
 files[] = {"id":"466628-3bea430f-746f-425b-b77e-35d5c5038065","path":"Geneared small chala?.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
-files[] = {"id":"466628-808b40b4-ce5f-4d34-8837-08010086c8f8","path":"Generate.json","metaData":{"generateCollectionPreferences":"{\"requestNameSource\":\"Fallback\",\"indentCharacter\":\"Space\",\"collapseFolders\":true,\"optimizeConversion\":true,\"requestParametersResolution\":\"Example\",\"exampleParametersResolution\":\"Schema\",\"folderStrategy\":\"Paths\",\"includeAuthInfoInExample\":true,\"enableOptionalParameters\":true,\"keepImplicitHeaders\":false,\"includeDeprecated\":true,\"updateCollectionSync\":true}"}}
-files[] = {"id":"466628-82e6156d-1ef0-4a7b-8043-94c94721b9a5","path":"Generated 2.json","metaData":{"generateCollectionPreferences":"{\"requestNameSource\":\"Fallback\",\"indentCharacter\":\"Space\",\"collapseFolders\":true,\"optimizeConversion\":true,\"requestParametersResolution\":\"Example\",\"exampleParametersResolution\":\"Schema\",\"folderStrategy\":\"Paths\",\"includeAuthInfoInExample\":true,\"enableOptionalParameters\":true,\"keepImplicitHeaders\":false,\"includeDeprecated\":true,\"updateCollectionSync\":false}"}}
-files[] = {"id":"466628-243add3b-80b5-4a97-bb80-b7781508695c","path":"New Collection(1).json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
-files[] = {"id":"466628-e4a8302d-149e-4dd6-85de-1d8bcb28790e","path":"New Collection(2).json","metaData":{}}
-files[] = {"id":"466628-c0cf4804-dd4b-457b-acec-18034f0d6993","path":"New Collection.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
 
 [relations.collections.metaData]
 
@@ -19,5 +14,5 @@ rootDirectory = postman/schemas
 files[] = {"path":"index.json","metaData":{}}
 
 [relations.apiDefinition.metaData]
-rootFiles[] = index.json
 type = openapi:3
+rootFiles[] = index.json
