@@ -14,7 +14,7 @@
 					"name": "{spacecraftId}",
 					"item": [
 						{
-							"name": "Read a spacecraft",
+							"name": "CHECK",
 							"id": "1a3ec257-3437-4989-827c-4f239ca25b29",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -64,7 +64,7 @@
 									},
 									"status": "OK",
 									"code": 200,
-									"_postman_previewlanguage": "json",
+									"_postman_previewlanguage": "Text",
 									"header": [
 										{
 											"key": "Content-Type",
@@ -98,7 +98,7 @@
 									},
 									"status": "Not Found",
 									"code": 404,
-									"_postman_previewlanguage": "json",
+									"_postman_previewlanguage": "Text",
 									"header": [
 										{
 											"key": "Content-Type",
@@ -132,7 +132,7 @@
 									},
 									"status": "Internal Server Error",
 									"code": 500,
-									"_postman_previewlanguage": "json",
+									"_postman_previewlanguage": "Text",
 									"header": [
 										{
 											"key": "Content-Type",
