@@ -14,7 +14,7 @@
 					"name": "{spacecraftId}",
 					"item": [
 						{
-							"name": "CHECK",
+							"name": "CHECK change",
 							"id": "1a3ec257-3437-4989-827c-4f239ca25b29",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true

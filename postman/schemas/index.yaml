@@ -14,7 +14,7 @@ paths:
         schema:
           $ref: '#/components/schemas/SpacecraftId'
     get:
-      summary: CHECK
+      summary: CHECK change
       responses:
         '200':
           description: The spacecraft corresponding to the provided `spacecraftId`
