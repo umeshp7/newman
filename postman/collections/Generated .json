@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "5e4988d9-04df-4afc-b558-3bb60f92b1b4",
-		"name": "Generated",
+		"_postman_id": "4d60c853-8fb3-4b58-bc58-a182e066905f",
+		"name": "Generated ",
 		"description": "BChekuy or rent spacecrafts",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "466628-5e4988d9-04df-4afc-b558-3bb60f92b1b4"
+		"_uid": "466628-4d60c853-8fb3-4b58-bc58-a182e066905f"
 	},
 	"item": [
 		{
@@ -15,7 +15,7 @@
 					"item": [
 						{
 							"name": "Read a efwr",
-							"id": "512848d6-9ea2-43e8-b0f6-d9ec296bbc4e",
+							"id": "a5413843-e8cf-4f74-9aa6-7aa4319a9521",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -41,7 +41,7 @@
 							},
 							"response": [
 								{
-									"id": "4831dac9-ceb0-45c3-8096-e1304ee8822a",
+									"id": "b846d1cf-fec9-4b62-b103-0e1017bed0b8",
 									"name": "The spacecraft corresponding to the provided `spacecraftId`",
 									"originalRequest": {
 										"method": "GET",
@@ -78,10 +78,10 @@
 										}
 									],
 									"cookie": [],
-									"body": "{\n  \"id\": \"<string>\",\n  \"name\": \"<string>\",\n  \"type\": \"spaceplane\",\n  \"description\": \"<string>\"\n}"
+									"body": "{\n  \"id\": \"<string>\",\n  \"name\": \"<string>\",\n  \"type\": \"probe\",\n  \"description\": \"<string>\"\n}"
 								},
 								{
-									"id": "ef2c0811-2bc8-4f63-923f-e50bebadf8d2",
+									"id": "7c6a826b-4872-4ae7-8d48-9c3b22a5c049",
 									"name": "No spacecraft found for the provided `spacecraftId`",
 									"originalRequest": {
 										"method": "GET",
@@ -121,7 +121,7 @@
 									"body": "{\n  \"message\": \"<string>\"\n}"
 								},
 								{
-									"id": "9a13e4dc-9c62-4e1c-93c5-6c8f4699a7fd",
+									"id": "a68319c6-d2ef-4882-84c6-cf2b25cf92e0",
 									"name": "Unexpected error",
 									"originalRequest": {
 										"method": "GET",
@@ -163,10 +163,10 @@
 							]
 						}
 					],
-					"id": "07596520-6bbf-45b9-bcf1-034e7e6e67d0"
+					"id": "8e991837-6c19-4622-8c7a-c9c270183c10"
 				}
 			],
-			"id": "405adf0c-9806-4ebb-81ba-ef6796bb1ac4"
+			"id": "915d8daa-78fd-49a1-841d-cdd9853ef532"
 		}
 	],
 	"auth": {
@@ -191,7 +191,7 @@
 	},
 	"variable": [
 		{
-			"id": "8329fddc-57e6-4d5c-a8a3-1657cd8f2899",
+			"id": "8ff18561-5cf5-441e-a20d-65f56b9b8919",
 			"key": "baseUrl",
 			"value": "/"
 		}
