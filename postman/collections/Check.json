@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "11fa9533-6e58-46fb-a72c-443a47f407a6",
+		"_postman_id": "491b3ac2-2a5f-4417-80d3-29a79d2e7cbd",
 		"name": "Check",
 		"description": "Buy or rent spacecrafts",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "466628-11fa9533-6e58-46fb-a72c-443a47f407a6"
+		"_uid": "466628-491b3ac2-2a5f-4417-80d3-29a79d2e7cbd"
 	},
 	"item": [
 		{
@@ -15,7 +15,7 @@
 					"item": [
 						{
 							"name": "Read a spacecraft",
-							"id": "d0987cbb-ead6-494d-bbef-5f964e9fa266",
+							"id": "5551b95c-314d-4b0f-8ff2-4aa4b209815b",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -41,7 +41,7 @@
 							},
 							"response": [
 								{
-									"id": "398d1154-0ee9-47c6-9a43-0853be52ed67",
+									"id": "4356b2fc-018d-47d8-9a6b-f78d38315e8b",
 									"name": "The spacecraft corresponding to the provided `spacecraftId`",
 									"originalRequest": {
 										"method": "GET",
@@ -71,6 +71,7 @@
 									"status": "OK",
 									"code": 200,
 									"_postman_previewlanguage": "json",
+									"_postman_previewtype": "html",
 									"header": [
 										{
 											"key": "Content-Type",
@@ -81,7 +82,7 @@
 									"body": "{\n  \"id\": \"<string>\",\n  \"name\": \"<string>\",\n  \"type\": \"capsule\",\n  \"description\": \"<string>\"\n}"
 								},
 								{
-									"id": "e1b5d7ad-1a8e-46fc-a03c-35b152130362",
+									"id": "8b5090c1-c46b-49b6-9887-e3cb46ba3692",
 									"name": "No spacecraft found for the provided `spacecraftId`",
 									"originalRequest": {
 										"method": "GET",
@@ -111,6 +112,7 @@
 									"status": "Not Found",
 									"code": 404,
 									"_postman_previewlanguage": "json",
+									"_postman_previewtype": "html",
 									"header": [
 										{
 											"key": "Content-Type",
@@ -121,7 +123,7 @@
 									"body": "{\n  \"message\": \"<string>\"\n}"
 								},
 								{
-									"id": "03e3966d-810e-49bb-87dd-66179cedd702",
+									"id": "ca73e1d4-49c9-4814-a5c6-9bfe5e970d7d",
 									"name": "Unexpected error",
 									"originalRequest": {
 										"method": "GET",
@@ -151,6 +153,7 @@
 									"status": "Internal Server Error",
 									"code": 500,
 									"_postman_previewlanguage": "json",
+									"_postman_previewtype": "html",
 									"header": [
 										{
 											"key": "Content-Type",
@@ -163,10 +166,10 @@
 							]
 						}
 					],
-					"id": "0d38f291-b31c-4ba1-a632-0e2ed2e3c91d"
+					"id": "aaa28216-8c4e-4ca8-91d6-6b1d8e2227a2"
 				}
 			],
-			"id": "7c8fc049-aea0-436b-a27e-52c896c9ffb1"
+			"id": "06cb4fb0-2245-43bd-a366-66523c1c08f5"
 		}
 	],
 	"auth": {
