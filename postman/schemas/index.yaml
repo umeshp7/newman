@@ -13,8 +13,14 @@ paths:
         required: true
         schema:
           $ref: '#/components/schemas/SpacecraftId'
+      - name: wefwrgwr
+        description: The unique identifier of the spacecraft
+        in: query
+        required: true
+        schema:
+          $ref: '#/components/schemas/SpacecraftId'
     get:
-      summary: Feature
+      summary: CHECK
       responses:
         '200':
           description: The spacecraft corresponding to the provided `spacecraftId`
