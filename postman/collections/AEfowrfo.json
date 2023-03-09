@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "293ce45a-2348-41e1-84f5-f4bd23c9ec2a",
+		"_postman_id": "ff41f365-0939-4ea7-ad16-bc77cb3f172f",
 		"name": "AEfowrfo",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "466628-293ce45a-2348-41e1-84f5-f4bd23c9ec2a"
+		"_uid": "466628-ff41f365-0939-4ea7-ad16-bc77cb3f172f"
 	},
 	"item": [
 		{
@@ -11,7 +11,7 @@
 			"item": [
 				{
 					"name": "Createet",
-					"id": "8dcb93a9-ce52-4127-84e2-6b51ec312aa6",
+					"id": "79be7695-c84c-4377-8126-64223c7bce17",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -40,7 +40,7 @@
 					},
 					"response": [
 						{
-							"id": "842dc131-976c-43e6-a5e0-10045616b992",
+							"id": "d65a8223-e923-481a-8c63-227a6a24c69a",
 							"name": "Null response",
 							"originalRequest": {
 								"method": "POST",
@@ -64,6 +64,7 @@
 							"status": "Created",
 							"code": 201,
 							"_postman_previewlanguage": "Text",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -74,7 +75,7 @@
 							"body": ""
 						},
 						{
-							"id": "9d88454c-81c2-4b69-89f8-a9b73408d038",
+							"id": "19a8d6bf-54f7-4cf5-888e-2430efbe5a29",
 							"name": "unexpected error",
 							"originalRequest": {
 								"method": "POST",
@@ -98,6 +99,7 @@
 							"status": "Internal Server Error",
 							"code": 500,
 							"_postman_previewlanguage": "Text",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -110,11 +112,11 @@
 					]
 				}
 			],
-			"id": "9ce6952c-90e6-4c10-b7a6-b4ebadd25399"
+			"id": "1cd27724-c6a2-4287-bae8-be4013332a64"
 		},
 		{
 			"name": "Info for a specific pet",
-			"id": "0148a344-05f5-4540-96d2-a71245cc3054",
+			"id": "e4f0d75e-8550-4ad6-993f-6ebba9571205",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -146,7 +148,7 @@
 			},
 			"response": [
 				{
-					"id": "40802bdc-c25e-4b26-9db8-b30b0e4acce9",
+					"id": "c091c21e-a42c-4095-80be-e1efafd967ce",
 					"name": "Expected response to a valid request",
 					"originalRequest": {
 						"method": "GET",
@@ -172,6 +174,7 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "Text",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
@@ -182,7 +185,7 @@
 					"body": "{\n  \"id\": 32498680,\n  \"name\": \"eu veniam\",\n  \"tag\": \"mollit deserunt Excepteur\"\n}"
 				},
 				{
-					"id": "6d301cf7-0955-4e24-a35e-eab9ac749d21",
+					"id": "e3213022-0fa8-47da-9101-f9e4e68fe19f",
 					"name": "unexpected error",
 					"originalRequest": {
 						"method": "GET",
@@ -208,6 +211,7 @@
 					"status": "Internal Server Error",
 					"code": 500,
 					"_postman_previewlanguage": "Text",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",

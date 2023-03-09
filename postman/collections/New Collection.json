@@ -1,14 +1,14 @@
 {
 	"info": {
-		"_postman_id": "1c8dff7c-02e2-43e5-a53b-25e97bf5cf88",
+		"_postman_id": "c950a7c5-e432-411f-a21a-9ea8ecce603b",
 		"name": "New Collection",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "466628-1c8dff7c-02e2-43e5-a53b-25e97bf5cf88"
+		"_uid": "466628-c950a7c5-e432-411f-a21a-9ea8ecce603b"
 	},
 	"item": [
 		{
 			"name": "Chawrofjoriwjf o ",
-			"id": "751741e5-80b8-4ac3-95c7-db2864d82b4d",
+			"id": "7512486d-0858-40be-a548-6066e683de5a",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -56,7 +56,7 @@
 		},
 		{
 			"name": "Createet",
-			"id": "b1e0c0ab-04c9-4540-8577-4c6eeaf1f9e4",
+			"id": "d142dc56-19eb-442a-8155-bdfe9b09a1b5",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -85,7 +85,7 @@
 			},
 			"response": [
 				{
-					"id": "df40e91d-aa07-4ca9-8e1d-5a469427cab1",
+					"id": "c41febe9-d42c-4fe2-8d7f-70edd5dbdc97",
 					"name": "Null response",
 					"originalRequest": {
 						"method": "POST",
@@ -109,6 +109,7 @@
 					"status": "Created",
 					"code": 201,
 					"_postman_previewlanguage": "Text",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
@@ -119,7 +120,7 @@
 					"body": ""
 				},
 				{
-					"id": "c581ed05-7f02-40a1-b7b4-6e80aee6dcce",
+					"id": "3828056f-f849-48f5-8ab7-3c056030c861",
 					"name": "unexpected error",
 					"originalRequest": {
 						"method": "POST",
@@ -143,6 +144,7 @@
 					"status": "Internal Server Error",
 					"code": 500,
 					"_postman_previewlanguage": "Text",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
@@ -156,7 +158,7 @@
 		},
 		{
 			"name": "Info for a specific pet",
-			"id": "5702c5c8-8eba-4ede-99ad-fed24f278f27",
+			"id": "30657fbf-ca05-45ce-86cf-b534ce31f0c6",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -188,7 +190,7 @@
 			},
 			"response": [
 				{
-					"id": "97f69fa5-182e-4e51-93da-664ce17ac0b4",
+					"id": "a6c43d72-facc-4fb7-93e9-8e029f92c35f",
 					"name": "Expected response to a valid request",
 					"originalRequest": {
 						"method": "GET",
@@ -214,6 +216,7 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "Text",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
@@ -224,7 +227,7 @@
 					"body": "{\n  \"id\": 75679604,\n  \"name\": \"in aliqua\",\n  \"tag\": \"velit ut Ut\"\n}"
 				},
 				{
-					"id": "2b06cd9f-7c29-4025-b918-4e7c39f6d261",
+					"id": "01f29750-35df-4b81-9858-1f6679dcc079",
 					"name": "unexpected error",
 					"originalRequest": {
 						"method": "GET",
@@ -250,6 +253,7 @@
 					"status": "Internal Server Error",
 					"code": 500,
 					"_postman_previewlanguage": "Text",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
