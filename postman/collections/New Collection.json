@@ -7,7 +7,7 @@
 	},
 	"item": [
 		{
-			"name": "NEW NAME Again?",
+			"name": "UPDATES",
 			"id": "4dbfb480-a87a-4912-b306-ae80a8e41c44",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -20,39 +20,6 @@
 						"value": "application/x-www-form-urlencoded"
 					}
 				],
-				"body": {
-					"mode": "urlencoded",
-					"urlencoded": [
-						{
-							"description": "(Required) Amount of the charge that you will create when authentication completes.",
-							"key": "amount",
-							"value": "-79514498"
-						},
-						{
-							"description": "(Required) Three-letter [ISO currency code](https://www.iso.org/iso-4217-currency-codes.html), in lowercase. Must be a [supported currency](https://stripe.com/docs/currencies).",
-							"key": "currency",
-							"value": "Ut Duis nostrud sunt"
-						},
-						{
-							"description": "(Required) The URL that the cardholder's browser will be returned to when authentication completes.",
-							"key": "return_url",
-							"value": "officia ut ullamco"
-						},
-						{
-							"description": "The ID of a card token, or the ID of a card belonging to the given customer.",
-							"key": "card",
-							"value": "elit non"
-						},
-						{
-							"key": "customer",
-							"value": "Ut nostrud"
-						},
-						{
-							"key": "expand",
-							"value": "<Error: Not supported in OAS>"
-						}
-					]
-				},
 				"url": {
 					"raw": "{{baseUrl}}/v1/3d_secure",
 					"host": [
@@ -202,7 +169,7 @@
 			]
 		},
 		{
-			"name": "Retrieve3D Secure",
+			"name": "yypdate",
 			"id": "c1daaab7-502d-468e-ac5c-e9734e7396bc",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
