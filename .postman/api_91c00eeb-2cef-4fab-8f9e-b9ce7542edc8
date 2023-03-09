@@ -24,6 +24,7 @@ files[] = {"id":"466628-dba390d1-4049-4fc0-a569-521fb83ab115","path":"New config
 
 [config.relations.apiDefinition]
 rootDirectory = postman/schemas
+files[] = {"path":"check.json","metaData":{}}
 files[] = {"path":"index.json","metaData":{}}
 files[] = {"path":"New.json","metaData":{}}
 
