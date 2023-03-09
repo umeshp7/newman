@@ -12,8 +12,8 @@ rootDirectory = postman/collections
 files[] = {"id":"466628-d888d6b7-5f1b-459c-8bbb-26b0f5e541bb","path":"Await.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
 files[] = {"id":"466628-234ec6bf-6c6d-45c8-87fc-849a4118b236","path":"CHECK CONFIG FOR ALL .json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
 files[] = {"id":"466628-d5174cc9-2ce5-4d92-b094-ffdc4f7f218e","path":"CHECK CONFIGG.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
-files[] = {"id":"466628-491b3ac2-2a5f-4417-80d3-29a79d2e7cbd","path":"Check.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
 files[] = {"id":"466628-c030848b-ab62-4562-ab3c-3b7f9400b567","path":"check.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":false}"}}
+files[] = {"id":"466628-491b3ac2-2a5f-4417-80d3-29a79d2e7cbd","path":"Check.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
 files[] = {"id":"466628-3bea430f-746f-425b-b77e-35d5c5038065","path":"Geneared small chala?.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
 files[] = {"id":"466628-4d60c853-8fb3-4b58-bc58-a182e066905f","path":"Generated .json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
 files[] = {"id":"466628-4ea8618e-f0af-44b2-8134-3b83a720c698","path":"GENERATED.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
@@ -25,7 +25,8 @@ files[] = {"id":"466628-dba390d1-4049-4fc0-a569-521fb83ab115","path":"New config
 [config.relations.apiDefinition]
 rootDirectory = postman/schemas
 files[] = {"path":"index.json","metaData":{}}
+files[] = {"path":"New.json","metaData":{}}
 
 [config.relations.apiDefinition.metaData]
 type = openapi:3
-rootFiles[] = index.json
+rootFiles[] = New.json
