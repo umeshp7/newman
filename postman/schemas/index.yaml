@@ -2,7 +2,7 @@ openapi: '3.0.0'
 info:
   version: '1.0.0'
   title: 'Sample API'
-  description: Buy or rent spacecrafts
+  description: Buy or rent spacecrafts check
 
 paths:
   /spacecrafts/{spacecraftId}:
@@ -19,27 +19,6 @@ paths:
         required: true
         schema:
           $ref: '#/components/schemas/SpacecraftId'
-    get:
-      summary: CHECKbhb
-      responses:
-        '200':
-          description: The spacecraft corresponding to the provided `spacecraftId`
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Spacecraft'
-        404:
-          description: No spacecraft found for the provided `spacecraftId`
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Error'
-        500:
-          description: Unexpected error
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Error'
     post:
       summary: New re
       responses:

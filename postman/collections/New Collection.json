@@ -1,183 +1,25 @@
 {
 	"info": {
-		"_postman_id": "be94363e-9af4-401c-85c1-15a86ea429ff",
-		"name": "Generated for config",
-		"description": "Buy or rent spacecrafts",
+		"_postman_id": "93dcf3ab-6d96-4694-82f5-b56094aaa71a",
+		"name": "New Collection",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "466628-be94363e-9af4-401c-85c1-15a86ea429ff"
+		"_uid": "466628-93dcf3ab-6d96-4694-82f5-b56094aaa71a"
 	},
 	"item": [
 		{
-			"name": "spacecrafts",
+			"name": "New Folder",
 			"item": [
 				{
-					"name": "{spacecraftId}",
-					"item": [
-						{
-							"name": "/spacecrafts/:spacecraftId",
-							"id": "4ece5abb-510f-4a54-bcef-f1d3c6b1f246",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "GET",
-								"header": [],
-								"url": {
-									"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=fugiat sed",
-									"host": [
-										"{{baseUrl}}"
-									],
-									"path": [
-										"spacecrafts",
-										":spacecraftId"
-									],
-									"query": [
-										{
-											"description": "(Required) The unique identifier of a spacecraft",
-											"key": "wefwrgwr",
-											"value": "fugiat sed"
-										}
-									],
-									"variable": [
-										{
-											"key": "spacecraftId",
-											"value": "tempor"
-										}
-									]
-								}
-							},
-							"response": [
-								{
-									"id": "14a25c58-d93c-42ad-90c7-2927322f8fe0",
-									"name": "The spacecraft corresponding to the provided `spacecraftId`",
-									"originalRequest": {
-										"method": "GET",
-										"header": [
-											{
-												"description": "Added as a part of security scheme: apikey",
-												"key": "X-Api-Key",
-												"value": "<API Key>"
-											}
-										],
-										"url": {
-											"raw": "{{baseUrl}}/spacecrafts/:spacecraftId",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"spacecrafts",
-												":spacecraftId"
-											],
-											"variable": [
-												{
-													"key": "spacecraftId"
-												}
-											]
-										}
-									},
-									"status": "OK",
-									"code": 200,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Content-Type",
-											"value": "application/json"
-										}
-									],
-									"cookie": [],
-									"body": "{\n  \"id\": \"sed no\",\n  \"name\": \"sit enim exercitation\",\n  \"type\": \"satellite\",\n  \"description\": \"Ut magna commodo incididunt consequat\"\n}"
-								},
-								{
-									"id": "5162f43d-99f5-4652-a46f-639dd623f6b0",
-									"name": "No spacecraft found for the provided `spacecraftId`",
-									"originalRequest": {
-										"method": "GET",
-										"header": [
-											{
-												"description": "Added as a part of security scheme: apikey",
-												"key": "X-Api-Key",
-												"value": "<API Key>"
-											}
-										],
-										"url": {
-											"raw": "{{baseUrl}}/spacecrafts/:spacecraftId",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"spacecrafts",
-												":spacecraftId"
-											],
-											"variable": [
-												{
-													"key": "spacecraftId"
-												}
-											]
-										}
-									},
-									"status": "Not Found",
-									"code": 404,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Content-Type",
-											"value": "application/json"
-										}
-									],
-									"cookie": [],
-									"body": "{\n  \"message\": \"dolor est incididunt minim\"\n}"
-								},
-								{
-									"id": "7bc3a3ad-c869-4b60-b94e-8a7c909f795e",
-									"name": "Unexpected error",
-									"originalRequest": {
-										"method": "GET",
-										"header": [
-											{
-												"description": "Added as a part of security scheme: apikey",
-												"key": "X-Api-Key",
-												"value": "<API Key>"
-											}
-										],
-										"url": {
-											"raw": "{{baseUrl}}/spacecrafts/:spacecraftId",
-											"host": [
-												"{{baseUrl}}"
-											],
-											"path": [
-												"spacecrafts",
-												":spacecraftId"
-											],
-											"variable": [
-												{
-													"key": "spacecraftId"
-												}
-											]
-										}
-									},
-									"status": "Internal Server Error",
-									"code": 500,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Content-Type",
-											"value": "application/json"
-										}
-									],
-									"cookie": [],
-									"body": "{\n  \"message\": \"dolor est incididunt minim\"\n}"
-								}
-							]
-						}
-					],
-					"id": "d70520f8-5451-4383-8a29-e50dcc4f1c84"
+					"name": "New Folder",
+					"item": [],
+					"id": "5d85db9b-e135-4a89-b06b-4d442c0f5d70"
 				}
 			],
-			"id": "95fcc741-ebb9-4166-99c7-4a9507ad6826"
+			"id": "57e98f83-2f94-4c82-aa2f-ce8280f001e1"
 		},
 		{
-			"name": "/spacecrafts/:spacecraftId",
-			"id": "27f5c6a7-f5d2-4a74-895f-376df8f9d398",
+			"name": "New re",
+			"id": "6667dd17-4f72-492e-984d-e96c6e074170",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -190,7 +32,7 @@
 					}
 				],
 				"url": {
-					"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=tempor in",
+					"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=Duis ut aute tempor ex",
 					"host": [
 						"{{baseUrl}}"
 					],
@@ -202,20 +44,20 @@
 						{
 							"description": "(Required) The unique identifier of the spacecraft",
 							"key": "wefwrgwr",
-							"value": "tempor in"
+							"value": "Duis ut aute tempor ex"
 						}
 					],
 					"variable": [
 						{
 							"key": "spacecraftId",
-							"value": "tempor in"
+							"value": "Duis ut aute tempor ex"
 						}
 					]
 				}
 			},
 			"response": [
 				{
-					"id": "50ef9ac4-ad11-45f2-a18c-3e1d2b6b9a4c",
+					"id": "0a0d61df-c668-4cf0-9ceb-f81dc4f07db7",
 					"name": "The spacecraft corresponding to the provided `spacecraftId`",
 					"originalRequest": {
 						"method": "POST",
@@ -227,7 +69,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=tempor in",
+							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=Duis ut aute tempor ex",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -239,7 +81,7 @@
 								{
 									"description": "(Required) The unique identifier of the spacecraft",
 									"key": "wefwrgwr",
-									"value": "tempor in"
+									"value": "Duis ut aute tempor ex"
 								}
 							],
 							"variable": [
@@ -259,10 +101,10 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n  \"id\": \"anim deserunt\",\n  \"name\": \"sint incididunt\",\n  \"type\": \"station\",\n  \"description\": \"ex\"\n}"
+					"body": "{\n  \"id\": \"non ipsum sint adipisicing\",\n  \"name\": \"<string>\",\n  \"type\": \"spaceplane\",\n  \"description\": \"<string>\"\n}"
 				},
 				{
-					"id": "e1661163-1481-4de7-837d-8bbec8617f40",
+					"id": "a62938b4-1e88-482d-abc0-98eee8beff53",
 					"name": "No spacecraft found for the provided `spacecraftId`",
 					"originalRequest": {
 						"method": "POST",
@@ -274,7 +116,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=tempor in",
+							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=Duis ut aute tempor ex",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -286,7 +128,7 @@
 								{
 									"description": "(Required) The unique identifier of the spacecraft",
 									"key": "wefwrgwr",
-									"value": "tempor in"
+									"value": "Duis ut aute tempor ex"
 								}
 							],
 							"variable": [
@@ -306,10 +148,10 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n  \"message\": \"commodo Exc\"\n}"
+					"body": "{\n  \"message\": \"<string>\"\n}"
 				},
 				{
-					"id": "b8c0cb21-9d9b-40f1-a9ca-b5d6d029d84d",
+					"id": "63503783-b5e3-4a63-811d-2a225f827f11",
 					"name": "Unexpected error",
 					"originalRequest": {
 						"method": "POST",
@@ -321,7 +163,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=tempor in",
+							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=Duis ut aute tempor ex",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -333,7 +175,7 @@
 								{
 									"description": "(Required) The unique identifier of the spacecraft",
 									"key": "wefwrgwr",
-									"value": "tempor in"
+									"value": "Duis ut aute tempor ex"
 								}
 							],
 							"variable": [
@@ -353,13 +195,13 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n  \"message\": \"commodo Exc\"\n}"
+					"body": "{\n  \"message\": \"<string>\"\n}"
 				}
 			]
 		},
 		{
-			"name": "/spacecrafts/:spacecraftId",
-			"id": "a7a14310-8ae2-4d5a-9150-92a63a375835",
+			"name": "change",
+			"id": "e2b3b5c3-d52c-4e71-8578-122d68b2884c",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -372,7 +214,7 @@
 					}
 				],
 				"url": {
-					"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=tempor in",
+					"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=Duis ut aute tempor ex",
 					"host": [
 						"{{baseUrl}}"
 					],
@@ -384,20 +226,20 @@
 						{
 							"description": "(Required) The unique identifier of the spacecraft",
 							"key": "wefwrgwr",
-							"value": "tempor in"
+							"value": "Duis ut aute tempor ex"
 						}
 					],
 					"variable": [
 						{
 							"key": "spacecraftId",
-							"value": "tempor in"
+							"value": "Duis ut aute tempor ex"
 						}
 					]
 				}
 			},
 			"response": [
 				{
-					"id": "aa3282a5-e329-4d17-bea7-39c3114632c1",
+					"id": "2269c5ab-75cb-4208-9b6c-f99b3ab33589",
 					"name": "The spacecraft corresponding to the provided `spacecraftId`",
 					"originalRequest": {
 						"method": "PUT",
@@ -409,7 +251,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=tempor in",
+							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=Duis ut aute tempor ex",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -421,7 +263,7 @@
 								{
 									"description": "(Required) The unique identifier of the spacecraft",
 									"key": "wefwrgwr",
-									"value": "tempor in"
+									"value": "Duis ut aute tempor ex"
 								}
 							],
 							"variable": [
@@ -441,10 +283,10 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n  \"id\": \"anim deserunt\",\n  \"name\": \"sint incididunt\",\n  \"type\": \"station\",\n  \"description\": \"ex\"\n}"
+					"body": "{\n  \"id\": \"non ipsum sint adipisicing\",\n  \"name\": \"<string>\",\n  \"type\": \"spaceplane\",\n  \"description\": \"<string>\"\n}"
 				},
 				{
-					"id": "c47b655c-c370-4542-927b-f06d5409faf4",
+					"id": "d54b0c70-22bb-4bd0-bfbc-4eb7a1d0fe06",
 					"name": "No spacecraft found for the provided `spacecraftId`",
 					"originalRequest": {
 						"method": "PUT",
@@ -456,7 +298,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=tempor in",
+							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=Duis ut aute tempor ex",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -468,7 +310,7 @@
 								{
 									"description": "(Required) The unique identifier of the spacecraft",
 									"key": "wefwrgwr",
-									"value": "tempor in"
+									"value": "Duis ut aute tempor ex"
 								}
 							],
 							"variable": [
@@ -488,10 +330,10 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n  \"message\": \"commodo Exc\"\n}"
+					"body": "{\n  \"message\": \"<string>\"\n}"
 				},
 				{
-					"id": "f8641bd2-34f5-4318-94fb-6651253d31e2",
+					"id": "28a1dda3-e194-45e1-87af-ab35f3c3d450",
 					"name": "Unexpected error",
 					"originalRequest": {
 						"method": "PUT",
@@ -503,7 +345,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=tempor in",
+							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=Duis ut aute tempor ex",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -515,7 +357,7 @@
 								{
 									"description": "(Required) The unique identifier of the spacecraft",
 									"key": "wefwrgwr",
-									"value": "tempor in"
+									"value": "Duis ut aute tempor ex"
 								}
 							],
 							"variable": [
@@ -535,13 +377,13 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n  \"message\": \"commodo Exc\"\n}"
+					"body": "{\n  \"message\": \"<string>\"\n}"
 				}
 			]
 		},
 		{
-			"name": "/spacecrafts/:spacecraftId",
-			"id": "e6d480ad-6a74-40e6-ac3b-aaa03faea4bd",
+			"name": "change",
+			"id": "f8826126-3567-4133-8e23-51e9af96daf8",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -554,7 +396,7 @@
 					}
 				],
 				"url": {
-					"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=tempor in",
+					"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=Duis ut aute tempor ex",
 					"host": [
 						"{{baseUrl}}"
 					],
@@ -566,20 +408,20 @@
 						{
 							"description": "(Required) The unique identifier of the spacecraft",
 							"key": "wefwrgwr",
-							"value": "tempor in"
+							"value": "Duis ut aute tempor ex"
 						}
 					],
 					"variable": [
 						{
 							"key": "spacecraftId",
-							"value": "tempor in"
+							"value": "Duis ut aute tempor ex"
 						}
 					]
 				}
 			},
 			"response": [
 				{
-					"id": "64c34355-f383-4693-abe9-8d85d3770955",
+					"id": "5a52c8c9-9db0-43eb-9a7d-a010b9971808",
 					"name": "The spacecraft corresponding to the provided `spacecraftId`",
 					"originalRequest": {
 						"method": "PATCH",
@@ -591,7 +433,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=tempor in",
+							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=Duis ut aute tempor ex",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -603,7 +445,7 @@
 								{
 									"description": "(Required) The unique identifier of the spacecraft",
 									"key": "wefwrgwr",
-									"value": "tempor in"
+									"value": "Duis ut aute tempor ex"
 								}
 							],
 							"variable": [
@@ -623,10 +465,10 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n  \"id\": \"anim deserunt\",\n  \"name\": \"sint incididunt\",\n  \"type\": \"station\",\n  \"description\": \"ex\"\n}"
+					"body": "{\n  \"id\": \"non ipsum sint adipisicing\",\n  \"name\": \"<string>\",\n  \"type\": \"spaceplane\",\n  \"description\": \"<string>\"\n}"
 				},
 				{
-					"id": "f47465d3-f01f-4c8e-a723-ca582579982e",
+					"id": "f53f63a9-9243-44f5-b2bb-985d955b441f",
 					"name": "No spacecraft found for the provided `spacecraftId`",
 					"originalRequest": {
 						"method": "PATCH",
@@ -638,7 +480,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=tempor in",
+							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=Duis ut aute tempor ex",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -650,7 +492,7 @@
 								{
 									"description": "(Required) The unique identifier of the spacecraft",
 									"key": "wefwrgwr",
-									"value": "tempor in"
+									"value": "Duis ut aute tempor ex"
 								}
 							],
 							"variable": [
@@ -670,10 +512,10 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n  \"message\": \"commodo Exc\"\n}"
+					"body": "{\n  \"message\": \"<string>\"\n}"
 				},
 				{
-					"id": "a5a86c31-a494-4361-baab-8cd1cf90827c",
+					"id": "964d475d-ed57-4a11-b2d8-2b942434c91b",
 					"name": "Unexpected error",
 					"originalRequest": {
 						"method": "PATCH",
@@ -685,7 +527,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=tempor in",
+							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=Duis ut aute tempor ex",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -697,7 +539,7 @@
 								{
 									"description": "(Required) The unique identifier of the spacecraft",
 									"key": "wefwrgwr",
-									"value": "tempor in"
+									"value": "Duis ut aute tempor ex"
 								}
 							],
 							"variable": [
@@ -717,34 +559,14 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n  \"message\": \"commodo Exc\"\n}"
+					"body": "{\n  \"message\": \"<string>\"\n}"
 				}
 			]
 		}
 	],
-	"auth": {
-		"type": "apikey",
-		"apikey": [
-			{
-				"key": "key",
-				"value": "X-Api-Key",
-				"type": "string"
-			},
-			{
-				"key": "value",
-				"value": "{{apiKey}}",
-				"type": "string"
-			},
-			{
-				"key": "in",
-				"value": "header",
-				"type": "string"
-			}
-		]
-	},
 	"variable": [
 		{
-			"id": "696002d5-3499-4ee3-bfeb-648add0d3afa",
+			"id": "fbf3e483-b8ec-4a45-8cb8-d8e10741e894",
 			"key": "baseUrl",
 			"value": "/",
 			"type": "string"
