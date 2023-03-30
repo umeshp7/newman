@@ -1,0 +1,26 @@
+{
+	"info": {
+		"_postman_id": "17c6aab7-7913-44e3-83d2-a0af1d61fcb6",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "466628-17c6aab7-7913-44e3-83d2-a0af1d61fcb6"
+	},
+	"item": [
+		{
+			"name": "New Folder",
+			"item": [
+				{
+					"name": "New Folder",
+					"item": [],
+					"id": "5e10040d-47c3-44c4-8cbc-53ed0949aeaa"
+				},
+				{
+					"name": "New Folder",
+					"item": [],
+					"id": "2f380749-df10-4dd0-a4be-1a9bd0b67143"
+				}
+			],
+			"id": "4e6094bb-5761-47ec-8e92-97238f3d3f19"
+		}
+	]
+}

@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "c5193da4-0c1e-4430-b667-b18cbe04dfd9",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "466628-c5193da4-0c1e-4430-b667-b18cbe04dfd9"
+	},
+	"item": [
+		{
+			"name": "New Folder",
+			"item": [
+				{
+					"name": "New Folder",
+					"item": [],
+					"id": "ff488763-1f16-4dd3-b5b5-366e5089788f"
+				},
+				{
+					"name": "New Folder",
+					"item": [],
+					"id": "d7b94f2a-99cf-4207-b673-31033b1a7688"
+				},
+				{
+					"name": "New Folder",
+					"item": [],
+					"id": "8bfa701a-1a31-428a-80cb-2dc54ef3ebaf"
+				},
+				{
+					"name": "New Request",
+					"id": "3cea3e29-62e1-439e-bec3-02cf60e20109",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "a2ad1c0f-44f9-48ee-91be-e22c7188f2f9"
+		},
+		{
+			"name": "New Folder",
+			"item": [],
+			"id": "b690e3f7-63c4-4afc-82f6-e02b9fe97890"
+		},
+		{
+			"name": "New Request",
+			"id": "6df6203d-ecc3-46c9-91dd-74220ed5eb98",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
