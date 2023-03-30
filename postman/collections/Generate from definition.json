@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "fd69627b-4bb8-4da8-8fe2-ad47830adee0",
+		"_postman_id": "195a04ef-581d-4a9d-808f-6c961cc2a27d",
 		"name": "Generate from definition",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "466628-fd69627b-4bb8-4da8-8fe2-ad47830adee0"
+		"_uid": "466628-195a04ef-581d-4a9d-808f-6c961cc2a27d"
 	},
 	"item": [
 		{
@@ -11,7 +11,7 @@
 			"item": [
 				{
 					"name": "Chawrofjoriwjf o ",
-					"id": "8613affd-f80e-49ce-876e-bb3d2fc7cf7a",
+					"id": "a13c9304-44f3-4811-a3a7-2d330c814e63",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -69,7 +69,7 @@
 					},
 					"response": [
 						{
-							"id": "1122f7df-9c2d-4033-9296-6bba8fcdb3b8",
+							"id": "c71e8929-c4dd-42a0-a50d-f651e27b8371",
 							"name": "An paged array of pets",
 							"originalRequest": {
 								"method": "GET",
@@ -132,7 +132,7 @@
 							"body": "[\n {\n  \"id\": -13555254,\n  \"name\": \"dolore ullamco ad laborum\",\n  \"tag\": \"do sint mollit\"\n },\n {\n  \"id\": 57681031,\n  \"name\": \"Lorem\",\n  \"tag\": \"aliqu\"\n },\n {\n  \"id\": 62517800,\n  \"name\": \"est in minim tempor\",\n  \"tag\": \"ipsum dolor in\"\n },\n {\n  \"id\": -57269139,\n  \"name\": \"labore in officia ea\",\n  \"tag\": \"Duis et incididunt laborum\"\n }\n]"
 						},
 						{
-							"id": "fc9d70f9-20bd-44b1-8a90-95bdd4f5bf73",
+							"id": "c0b7e2c5-fa8c-46ba-bc37-95c9a018f28f",
 							"name": "unexpected error",
 							"originalRequest": {
 								"method": "GET",
@@ -185,7 +185,7 @@
 				},
 				{
 					"name": "Createet",
-					"id": "19e54370-bf76-4cac-8b3f-fb3406e30a9d",
+					"id": "35036857-057f-402d-bc9f-1e33f4085806",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -214,7 +214,7 @@
 					},
 					"response": [
 						{
-							"id": "4b23f1b8-d6fc-49ef-a88f-a9c706302e3c",
+							"id": "e75c7a3f-617f-4e34-9948-53503de81c26",
 							"name": "Null response",
 							"originalRequest": {
 								"method": "POST",
@@ -249,7 +249,7 @@
 							"body": ""
 						},
 						{
-							"id": "8927b150-8807-4664-84cb-af1d734e2519",
+							"id": "819b91a9-5965-46f1-9ebe-3b6c529e1d0c",
 							"name": "unexpected error",
 							"originalRequest": {
 								"method": "POST",
@@ -287,7 +287,7 @@
 				},
 				{
 					"name": "Info for a specific pet",
-					"id": "d4e02e94-32c2-45a7-832c-890b4537297e",
+					"id": "5da7aa0d-d75e-4ec9-99b8-007c62b7102e",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -319,7 +319,7 @@
 					},
 					"response": [
 						{
-							"id": "8d6f4f28-bbd5-42e4-91fe-7d0dad19f616",
+							"id": "f920f838-2291-460a-abb2-aca7ab3485c8",
 							"name": "Expected response to a valid request",
 							"originalRequest": {
 								"method": "GET",
@@ -356,7 +356,7 @@
 							"body": "{\n  \"id\": \"<long>\",\n  \"name\": \"<string>\",\n  \"tag\": \"<string>\"\n}"
 						},
 						{
-							"id": "b152171b-785e-468f-a80f-db9dffbecdb8",
+							"id": "bdb8bd3a-8bbe-4461-a04b-05f0a6f55ce1",
 							"name": "unexpected error",
 							"originalRequest": {
 								"method": "GET",
@@ -395,7 +395,7 @@
 					]
 				}
 			],
-			"id": "b85bac0c-b012-46f1-a635-b60c7792ebd1"
+			"id": "efd930f2-9ed8-4935-bf65-233a8c73fd20"
 		}
 	],
 	"variable": [

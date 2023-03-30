@@ -3,20 +3,20 @@ configVersion = 1.0.0
 type = apiEntityData
 
 [config]
-id = eafaa6a2-29cd-46c4-b734-9095df17f686
+id = 91c00eeb-2cef-4fab-8f9e-b9ce7542edc8
 
 [config.relations]
 
 [config.relations.collections]
 rootDirectory = postman/collections
-files[] = {"id":"466628-293ce45a-2348-41e1-84f5-f4bd23c9ec2a","path":"AEfowrfo.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
-files[] = {"id":"466628-7d9719dc-5f2e-435c-80e8-4bd0c38da770","path":"Generate from definition.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
-files[] = {"id":"466628-1c8dff7c-02e2-43e5-a53b-25e97bf5cf88","path":"New Collection.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
-files[] = {"id":"466628-bab04587-e310-4cd6-988e-2b2efcdbc703","path":"New gennnn.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
-files[] = {"id":"466628-ba923dc2-2306-447b-8631-c45be1671871","path":"ojoijo.json","metaData":{}}
-files[] = {"id":"466628-6d047086-4920-43fc-953d-522f1c56cb2c","path":"wefwrgrw.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
-files[] = {"id":"466628-148cab16-84bb-4538-bce3-460ea6d52c80","path":"WITH CONFIG.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
-files[] = {"id":"466628-113d8257-d050-42ed-bf45-f475f79ed2a9","path":"wrgwrg.json","metaData":{"generateCollectionPreferences":"{\"updateCollectionSync\":true}"}}
+files[] = {"id":"466628-0d557d56-14c7-4bb4-8eaf-4acc331acfa1","path":"AEfowrfo.json","metaData":{}}
+files[] = {"id":"466628-195a04ef-581d-4a9d-808f-6c961cc2a27d","path":"Generate from definition.json","metaData":{}}
+files[] = {"id":"466628-e1e059eb-3562-49f5-b864-275526aceb8f","path":"New Collection.json","metaData":{}}
+files[] = {"id":"466628-321fea48-5ea9-4c54-9fe0-bc3b2bd87d59","path":"New gennnn.json","metaData":{}}
+files[] = {"id":"466628-cdd92b44-870c-42a6-a205-82a58d19f7dd","path":"ojoijo.json","metaData":{}}
+files[] = {"id":"466628-8dcbdeea-ebe3-4247-989d-26cb2863dbad","path":"wefwrgrw.json","metaData":{}}
+files[] = {"id":"466628-4b4a9d5e-f957-4acf-bdb1-475bbf8c4274","path":"WITH CONFIG.json","metaData":{}}
+files[] = {"id":"466628-b64043cb-61aa-4544-a3bb-d721ac3e9649","path":"wrgwrg.json","metaData":{}}
 
 [config.relations.collections.metaData]
 
@@ -27,5 +27,4 @@ files[] = {"path":"New.json","metaData":{}}
 
 [config.relations.apiDefinition.metaData]
 type = openapi:3
-rootFiles[] = index.json
 rootFiles[] = index.json

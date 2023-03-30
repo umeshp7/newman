@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "e98d8f3d-57d2-489b-bde5-bf533b1fa8a7",
+		"_postman_id": "4b4a9d5e-f957-4acf-bdb1-475bbf8c4274",
 		"name": "WITH CONFIG",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "466628-e98d8f3d-57d2-489b-bde5-bf533b1fa8a7"
+		"_uid": "466628-4b4a9d5e-f957-4acf-bdb1-475bbf8c4274"
 	},
 	"item": [
 		{
@@ -11,7 +11,7 @@
 			"item": [
 				{
 					"name": "Chawrofjoriwjf o ",
-					"id": "49673be3-9193-4868-87ee-5fab3a8f30d9",
+					"id": "85880a88-fbb9-43ca-a914-4cd82395c663",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -57,7 +57,7 @@
 					},
 					"response": [
 						{
-							"id": "9abc11b1-a8fe-4cb5-87eb-ad4be9bc7889",
+							"id": "3dba78d0-879f-4318-88a3-8c413de29b0d",
 							"name": "An paged array of pets",
 							"originalRequest": {
 								"method": "GET",
@@ -116,7 +116,7 @@
 							"body": "[\n  {\n    \"id\": -91277443,\n    \"name\": \"ut elit\",\n    \"tag\": \"fugiat ea Excepteur deserunt culpa\"\n  },\n  {\n    \"id\": 32783704,\n    \"name\": \"Ut nisi\",\n    \"tag\": \"id culpa\"\n  }\n]"
 						},
 						{
-							"id": "10c24fa8-040f-43d0-84bf-7fb8b994b32e",
+							"id": "cafec5ca-0a50-4b2e-8de5-24b4f6ce1a6b",
 							"name": "unexpected error",
 							"originalRequest": {
 								"method": "GET",
@@ -169,7 +169,7 @@
 				},
 				{
 					"name": "Createet",
-					"id": "620ec29b-efc8-402a-a590-2ef13021ca47",
+					"id": "d7969ccd-0b41-4112-82de-b34a46989290",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -198,7 +198,7 @@
 					},
 					"response": [
 						{
-							"id": "dd714115-a492-405b-88d5-fb1f0e642b1b",
+							"id": "9fce3be4-1f48-4dd4-9911-8a90006ea57b",
 							"name": "Null response",
 							"originalRequest": {
 								"method": "POST",
@@ -233,7 +233,7 @@
 							"body": ""
 						},
 						{
-							"id": "c635c611-d3b4-44e3-bea3-cef9b941565a",
+							"id": "a31d1efe-e450-4fcc-b2cd-db4bfebe2963",
 							"name": "unexpected error",
 							"originalRequest": {
 								"method": "POST",
@@ -271,7 +271,7 @@
 				},
 				{
 					"name": "Info for a specific pet",
-					"id": "4c39984d-a9f8-40fb-a53b-0b1da750726e",
+					"id": "bcbf81ea-3897-4351-b43e-04477a0d4f8c",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -303,7 +303,7 @@
 					},
 					"response": [
 						{
-							"id": "82cc07f8-3c0b-430b-9aec-c448d867efd6",
+							"id": "828f4f9e-18c3-4edc-aec4-5885eb3788ce",
 							"name": "Expected response to a valid request",
 							"originalRequest": {
 								"method": "GET",
@@ -340,7 +340,7 @@
 							"body": "{\n  \"id\": -63082572,\n  \"name\": \"voluptate incididunt sunt in\",\n  \"tag\": \"irure Lorem laborum\"\n}"
 						},
 						{
-							"id": "959fbe85-f915-465e-941f-1cc5a7288af3",
+							"id": "e77cb94e-aa24-4ef1-81a7-740e23c79ed7",
 							"name": "unexpected error",
 							"originalRequest": {
 								"method": "GET",
@@ -379,7 +379,7 @@
 					]
 				}
 			],
-			"id": "98695608-13b5-4651-9507-c7ee7862671c"
+			"id": "24ff5717-4701-49a4-aafd-b64651812115"
 		}
 	],
 	"variable": [

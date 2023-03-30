@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "ff41f365-0939-4ea7-ad16-bc77cb3f172f",
+		"_postman_id": "0d557d56-14c7-4bb4-8eaf-4acc331acfa1",
 		"name": "AEfowrfo",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "466628-ff41f365-0939-4ea7-ad16-bc77cb3f172f"
+		"_uid": "466628-0d557d56-14c7-4bb4-8eaf-4acc331acfa1"
 	},
 	"item": [
 		{
@@ -11,7 +11,7 @@
 			"item": [
 				{
 					"name": "Createet",
-					"id": "79be7695-c84c-4377-8126-64223c7bce17",
+					"id": "cbca4f91-4ee3-4982-8883-46e5de01f07c",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -40,7 +40,7 @@
 					},
 					"response": [
 						{
-							"id": "d65a8223-e923-481a-8c63-227a6a24c69a",
+							"id": "edb18b4d-329a-49b2-bd3d-4b17defdcc8e",
 							"name": "Null response",
 							"originalRequest": {
 								"method": "POST",
@@ -75,7 +75,7 @@
 							"body": ""
 						},
 						{
-							"id": "19a8d6bf-54f7-4cf5-888e-2430efbe5a29",
+							"id": "9db9f2ee-34a7-4824-9bee-2cd6c8e9961d",
 							"name": "unexpected error",
 							"originalRequest": {
 								"method": "POST",
@@ -112,11 +112,11 @@
 					]
 				}
 			],
-			"id": "1cd27724-c6a2-4287-bae8-be4013332a64"
+			"id": "8fb4d7c4-acdd-423a-b5fb-a5bb79f40487"
 		},
 		{
 			"name": "Info for a specific pet",
-			"id": "e4f0d75e-8550-4ad6-993f-6ebba9571205",
+			"id": "81d1bf0e-67b5-4f4f-a022-05e99eb16e33",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -148,7 +148,7 @@
 			},
 			"response": [
 				{
-					"id": "c091c21e-a42c-4095-80be-e1efafd967ce",
+					"id": "083563b3-050b-4ef9-ba60-b44d64847ebb",
 					"name": "Expected response to a valid request",
 					"originalRequest": {
 						"method": "GET",
@@ -185,7 +185,7 @@
 					"body": "{\n  \"id\": 32498680,\n  \"name\": \"eu veniam\",\n  \"tag\": \"mollit deserunt Excepteur\"\n}"
 				},
 				{
-					"id": "e3213022-0fa8-47da-9101-f9e4e68fe19f",
+					"id": "4b5f27cb-75cc-40fc-926f-3584f284c2e2",
 					"name": "unexpected error",
 					"originalRequest": {
 						"method": "GET",
