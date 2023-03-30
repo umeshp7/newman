@@ -11,557 +11,178 @@
 			"item": [
 				{
 					"name": "New Folder",
-					"item": [],
+					"item": [
+						{
+							"name": "New Request",
+							"id": "9445ec60-7173-4778-acfb-9bbdffdec638",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						},
+						{
+							"name": "Read a spacecraft",
+							"id": "e59b9db6-79bb-4e24-bc87-077b14be8ba1",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/spacecrafts/:spacecraftId",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"spacecrafts",
+										":spacecraftId"
+									],
+									"variable": [
+										{
+											"key": "spacecraftId",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"id": "52235276-fc3f-468f-9ca8-a676040f3ec0",
+									"name": "The spacecraft corresponding to the provided `spacecraftId`",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"description": "Added as a part of security scheme: apikey",
+												"key": "X-Api-Key",
+												"value": "<API Key>"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/spacecrafts/:spacecraftId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"spacecrafts",
+												":spacecraftId"
+											],
+											"variable": [
+												{
+													"key": "spacecraftId"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "Text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"id\": \"<string>\",\n  \"name\": \"<string>\",\n  \"type\": \"station\",\n  \"description\": \"<string>\"\n}"
+								},
+								{
+									"id": "cbada8da-8fca-4ff3-af9e-f357a48fc43a",
+									"name": "No spacecraft found for the provided `spacecraftId`",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"description": "Added as a part of security scheme: apikey",
+												"key": "X-Api-Key",
+												"value": "<API Key>"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/spacecrafts/:spacecraftId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"spacecrafts",
+												":spacecraftId"
+											],
+											"variable": [
+												{
+													"key": "spacecraftId"
+												}
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "Text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"message\": \"<string>\"\n}"
+								},
+								{
+									"id": "a9aeaed2-1574-46ce-a416-796c12443a7e",
+									"name": "Unexpected error",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"description": "Added as a part of security scheme: apikey",
+												"key": "X-Api-Key",
+												"value": "<API Key>"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/spacecrafts/:spacecraftId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"spacecrafts",
+												":spacecraftId"
+											],
+											"variable": [
+												{
+													"key": "spacecraftId"
+												}
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "Text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"message\": \"<string>\"\n}"
+								}
+							]
+						}
+					],
 					"id": "5d85db9b-e135-4a89-b06b-4d442c0f5d70"
 				}
 			],
 			"id": "57e98f83-2f94-4c82-aa2f-ce8280f001e1"
-		},
-		{
-			"name": "New re",
-			"id": "6667dd17-4f72-492e-984d-e96c6e074170",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [
-					{
-						"key": "Accept",
-						"value": "application/json"
-					}
-				],
-				"url": {
-					"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=Duis ut aute tempor ex",
-					"host": [
-						"{{baseUrl}}"
-					],
-					"path": [
-						"spacecrafts",
-						":spacecraftId"
-					],
-					"query": [
-						{
-							"description": "(Required) The unique identifier of the spacecraft",
-							"key": "wefwrgwr",
-							"value": "Duis ut aute tempor ex"
-						}
-					],
-					"variable": [
-						{
-							"key": "spacecraftId",
-							"value": "Duis ut aute tempor ex"
-						}
-					]
-				}
-			},
-			"response": [
-				{
-					"id": "0a0d61df-c668-4cf0-9ceb-f81dc4f07db7",
-					"name": "The spacecraft corresponding to the provided `spacecraftId`",
-					"originalRequest": {
-						"method": "POST",
-						"header": [
-							{
-								"description": "Added as a part of security scheme: apikey",
-								"key": "X-Api-Key",
-								"value": "<API Key>"
-							}
-						],
-						"url": {
-							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=Duis ut aute tempor ex",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"spacecrafts",
-								":spacecraftId"
-							],
-							"query": [
-								{
-									"description": "(Required) The unique identifier of the spacecraft",
-									"key": "wefwrgwr",
-									"value": "Duis ut aute tempor ex"
-								}
-							],
-							"variable": [
-								{
-									"key": "spacecraftId"
-								}
-							]
-						}
-					},
-					"status": "OK",
-					"code": 200,
-					"_postman_previewlanguage": "Text",
-					"header": [
-						{
-							"key": "Content-Type",
-							"value": "application/json"
-						}
-					],
-					"cookie": [],
-					"body": "{\n  \"id\": \"non ipsum sint adipisicing\",\n  \"name\": \"<string>\",\n  \"type\": \"spaceplane\",\n  \"description\": \"<string>\"\n}"
-				},
-				{
-					"id": "a62938b4-1e88-482d-abc0-98eee8beff53",
-					"name": "No spacecraft found for the provided `spacecraftId`",
-					"originalRequest": {
-						"method": "POST",
-						"header": [
-							{
-								"description": "Added as a part of security scheme: apikey",
-								"key": "X-Api-Key",
-								"value": "<API Key>"
-							}
-						],
-						"url": {
-							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=Duis ut aute tempor ex",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"spacecrafts",
-								":spacecraftId"
-							],
-							"query": [
-								{
-									"description": "(Required) The unique identifier of the spacecraft",
-									"key": "wefwrgwr",
-									"value": "Duis ut aute tempor ex"
-								}
-							],
-							"variable": [
-								{
-									"key": "spacecraftId"
-								}
-							]
-						}
-					},
-					"status": "Not Found",
-					"code": 404,
-					"_postman_previewlanguage": "Text",
-					"header": [
-						{
-							"key": "Content-Type",
-							"value": "application/json"
-						}
-					],
-					"cookie": [],
-					"body": "{\n  \"message\": \"<string>\"\n}"
-				},
-				{
-					"id": "63503783-b5e3-4a63-811d-2a225f827f11",
-					"name": "Unexpected error",
-					"originalRequest": {
-						"method": "POST",
-						"header": [
-							{
-								"description": "Added as a part of security scheme: apikey",
-								"key": "X-Api-Key",
-								"value": "<API Key>"
-							}
-						],
-						"url": {
-							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=Duis ut aute tempor ex",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"spacecrafts",
-								":spacecraftId"
-							],
-							"query": [
-								{
-									"description": "(Required) The unique identifier of the spacecraft",
-									"key": "wefwrgwr",
-									"value": "Duis ut aute tempor ex"
-								}
-							],
-							"variable": [
-								{
-									"key": "spacecraftId"
-								}
-							]
-						}
-					},
-					"status": "Internal Server Error",
-					"code": 500,
-					"_postman_previewlanguage": "Text",
-					"header": [
-						{
-							"key": "Content-Type",
-							"value": "application/json"
-						}
-					],
-					"cookie": [],
-					"body": "{\n  \"message\": \"<string>\"\n}"
-				}
-			]
-		},
-		{
-			"name": "change",
-			"id": "e2b3b5c3-d52c-4e71-8578-122d68b2884c",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "PUT",
-				"header": [
-					{
-						"key": "Accept",
-						"value": "application/json"
-					}
-				],
-				"url": {
-					"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=Duis ut aute tempor ex",
-					"host": [
-						"{{baseUrl}}"
-					],
-					"path": [
-						"spacecrafts",
-						":spacecraftId"
-					],
-					"query": [
-						{
-							"description": "(Required) The unique identifier of the spacecraft",
-							"key": "wefwrgwr",
-							"value": "Duis ut aute tempor ex"
-						}
-					],
-					"variable": [
-						{
-							"key": "spacecraftId",
-							"value": "Duis ut aute tempor ex"
-						}
-					]
-				}
-			},
-			"response": [
-				{
-					"id": "2269c5ab-75cb-4208-9b6c-f99b3ab33589",
-					"name": "The spacecraft corresponding to the provided `spacecraftId`",
-					"originalRequest": {
-						"method": "PUT",
-						"header": [
-							{
-								"description": "Added as a part of security scheme: apikey",
-								"key": "X-Api-Key",
-								"value": "<API Key>"
-							}
-						],
-						"url": {
-							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=Duis ut aute tempor ex",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"spacecrafts",
-								":spacecraftId"
-							],
-							"query": [
-								{
-									"description": "(Required) The unique identifier of the spacecraft",
-									"key": "wefwrgwr",
-									"value": "Duis ut aute tempor ex"
-								}
-							],
-							"variable": [
-								{
-									"key": "spacecraftId"
-								}
-							]
-						}
-					},
-					"status": "OK",
-					"code": 200,
-					"_postman_previewlanguage": "Text",
-					"header": [
-						{
-							"key": "Content-Type",
-							"value": "application/json"
-						}
-					],
-					"cookie": [],
-					"body": "{\n  \"id\": \"non ipsum sint adipisicing\",\n  \"name\": \"<string>\",\n  \"type\": \"spaceplane\",\n  \"description\": \"<string>\"\n}"
-				},
-				{
-					"id": "d54b0c70-22bb-4bd0-bfbc-4eb7a1d0fe06",
-					"name": "No spacecraft found for the provided `spacecraftId`",
-					"originalRequest": {
-						"method": "PUT",
-						"header": [
-							{
-								"description": "Added as a part of security scheme: apikey",
-								"key": "X-Api-Key",
-								"value": "<API Key>"
-							}
-						],
-						"url": {
-							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=Duis ut aute tempor ex",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"spacecrafts",
-								":spacecraftId"
-							],
-							"query": [
-								{
-									"description": "(Required) The unique identifier of the spacecraft",
-									"key": "wefwrgwr",
-									"value": "Duis ut aute tempor ex"
-								}
-							],
-							"variable": [
-								{
-									"key": "spacecraftId"
-								}
-							]
-						}
-					},
-					"status": "Not Found",
-					"code": 404,
-					"_postman_previewlanguage": "Text",
-					"header": [
-						{
-							"key": "Content-Type",
-							"value": "application/json"
-						}
-					],
-					"cookie": [],
-					"body": "{\n  \"message\": \"<string>\"\n}"
-				},
-				{
-					"id": "28a1dda3-e194-45e1-87af-ab35f3c3d450",
-					"name": "Unexpected error",
-					"originalRequest": {
-						"method": "PUT",
-						"header": [
-							{
-								"description": "Added as a part of security scheme: apikey",
-								"key": "X-Api-Key",
-								"value": "<API Key>"
-							}
-						],
-						"url": {
-							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=Duis ut aute tempor ex",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"spacecrafts",
-								":spacecraftId"
-							],
-							"query": [
-								{
-									"description": "(Required) The unique identifier of the spacecraft",
-									"key": "wefwrgwr",
-									"value": "Duis ut aute tempor ex"
-								}
-							],
-							"variable": [
-								{
-									"key": "spacecraftId"
-								}
-							]
-						}
-					},
-					"status": "Internal Server Error",
-					"code": 500,
-					"_postman_previewlanguage": "Text",
-					"header": [
-						{
-							"key": "Content-Type",
-							"value": "application/json"
-						}
-					],
-					"cookie": [],
-					"body": "{\n  \"message\": \"<string>\"\n}"
-				}
-			]
-		},
-		{
-			"name": "change",
-			"id": "f8826126-3567-4133-8e23-51e9af96daf8",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "PATCH",
-				"header": [
-					{
-						"key": "Accept",
-						"value": "application/json"
-					}
-				],
-				"url": {
-					"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=Duis ut aute tempor ex",
-					"host": [
-						"{{baseUrl}}"
-					],
-					"path": [
-						"spacecrafts",
-						":spacecraftId"
-					],
-					"query": [
-						{
-							"description": "(Required) The unique identifier of the spacecraft",
-							"key": "wefwrgwr",
-							"value": "Duis ut aute tempor ex"
-						}
-					],
-					"variable": [
-						{
-							"key": "spacecraftId",
-							"value": "Duis ut aute tempor ex"
-						}
-					]
-				}
-			},
-			"response": [
-				{
-					"id": "5a52c8c9-9db0-43eb-9a7d-a010b9971808",
-					"name": "The spacecraft corresponding to the provided `spacecraftId`",
-					"originalRequest": {
-						"method": "PATCH",
-						"header": [
-							{
-								"description": "Added as a part of security scheme: apikey",
-								"key": "X-Api-Key",
-								"value": "<API Key>"
-							}
-						],
-						"url": {
-							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=Duis ut aute tempor ex",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"spacecrafts",
-								":spacecraftId"
-							],
-							"query": [
-								{
-									"description": "(Required) The unique identifier of the spacecraft",
-									"key": "wefwrgwr",
-									"value": "Duis ut aute tempor ex"
-								}
-							],
-							"variable": [
-								{
-									"key": "spacecraftId"
-								}
-							]
-						}
-					},
-					"status": "OK",
-					"code": 200,
-					"_postman_previewlanguage": "Text",
-					"header": [
-						{
-							"key": "Content-Type",
-							"value": "application/json"
-						}
-					],
-					"cookie": [],
-					"body": "{\n  \"id\": \"non ipsum sint adipisicing\",\n  \"name\": \"<string>\",\n  \"type\": \"spaceplane\",\n  \"description\": \"<string>\"\n}"
-				},
-				{
-					"id": "f53f63a9-9243-44f5-b2bb-985d955b441f",
-					"name": "No spacecraft found for the provided `spacecraftId`",
-					"originalRequest": {
-						"method": "PATCH",
-						"header": [
-							{
-								"description": "Added as a part of security scheme: apikey",
-								"key": "X-Api-Key",
-								"value": "<API Key>"
-							}
-						],
-						"url": {
-							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=Duis ut aute tempor ex",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"spacecrafts",
-								":spacecraftId"
-							],
-							"query": [
-								{
-									"description": "(Required) The unique identifier of the spacecraft",
-									"key": "wefwrgwr",
-									"value": "Duis ut aute tempor ex"
-								}
-							],
-							"variable": [
-								{
-									"key": "spacecraftId"
-								}
-							]
-						}
-					},
-					"status": "Not Found",
-					"code": 404,
-					"_postman_previewlanguage": "Text",
-					"header": [
-						{
-							"key": "Content-Type",
-							"value": "application/json"
-						}
-					],
-					"cookie": [],
-					"body": "{\n  \"message\": \"<string>\"\n}"
-				},
-				{
-					"id": "964d475d-ed57-4a11-b2d8-2b942434c91b",
-					"name": "Unexpected error",
-					"originalRequest": {
-						"method": "PATCH",
-						"header": [
-							{
-								"description": "Added as a part of security scheme: apikey",
-								"key": "X-Api-Key",
-								"value": "<API Key>"
-							}
-						],
-						"url": {
-							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?wefwrgwr=Duis ut aute tempor ex",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"spacecrafts",
-								":spacecraftId"
-							],
-							"query": [
-								{
-									"description": "(Required) The unique identifier of the spacecraft",
-									"key": "wefwrgwr",
-									"value": "Duis ut aute tempor ex"
-								}
-							],
-							"variable": [
-								{
-									"key": "spacecraftId"
-								}
-							]
-						}
-					},
-					"status": "Internal Server Error",
-					"code": 500,
-					"_postman_previewlanguage": "Text",
-					"header": [
-						{
-							"key": "Content-Type",
-							"value": "application/json"
-						}
-					],
-					"cookie": [],
-					"body": "{\n  \"message\": \"<string>\"\n}"
-				}
-			]
 		}
 	],
 	"variable": [

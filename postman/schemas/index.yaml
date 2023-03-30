@@ -2,7 +2,7 @@ openapi: '3.0.0'
 info:
   version: '1.0.0'
   title: 'Sample API'
-  description: Buy or rent spacecrafts check
+  description: Buy or rent spacecrafts
 
 paths:
   /spacecrafts/{spacecraftId}:
@@ -13,14 +13,8 @@ paths:
         required: true
         schema:
           $ref: '#/components/schemas/SpacecraftId'
-      - name: wefwrgwr
-        description: The unique identifier of the spacecraft
-        in: query
-        required: true
-        schema:
-          $ref: '#/components/schemas/SpacecraftId'
-    post:
-      summary: New re
+    get:
+      summary: Read a spacecraft
       responses:
         '200':
           description: The spacecraft corresponding to the provided `spacecraftId`
@@ -40,48 +34,7 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/Error'
-    put:
-      summary: change
-      responses:
-        '200':
-          description: The spacecraft corresponding to the provided `spacecraftId`
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Spacecraft'
-        404:
-          description: No spacecraft found for the provided `spacecraftId`
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Error'
-        500:
-          description: Unexpected error
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Error'
-    patch:
-      summary: change
-      responses:
-        '200':
-          description: The spacecraft corresponding to the provided `spacecraftId`
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Spacecraft'
-        404:
-          description: No spacecraft found for the provided `spacecraftId`
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Error'
-        500:
-          description: Unexpected error
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Error'
+
 components:
   schemas:
     SpacecraftId:
